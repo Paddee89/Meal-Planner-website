@@ -33,7 +33,7 @@ h1 {
 }
 
 p {
-  font-size: 1.2rem; /* Adjust font size for the paragraph text in hero section */
+  font-size: 2rem; /* Adjust font size for the paragraph text in hero section */
   margin-bottom: 20px;
 }
 
@@ -99,7 +99,7 @@ h3 {
 }
 
 p {
-  font-size: 1rem; /* Adjust font size for the paragraph text inside meal day box */
+  font-size: 1.7rem; /* Adjust font size for the paragraph text inside meal day box */
 }
 
 /* Recipe Box Text Style */
