@@ -33,7 +33,7 @@ h1 {
 }
 
 p {
-  font-size: 2rem; /* Adjust font size for the paragraph text in hero section */
+  font-size: 1.2rem; /* Adjust font size for the paragraph text in hero section */
   margin-bottom: 20px;
 }
 
@@ -99,7 +99,7 @@ h3 {
 }
 
 p {
-  font-size: 1.8rem; /* Adjust font size for the paragraph text inside meal day box */
+  font-size: 1rem; /* Adjust font size for the paragraph text inside meal day box */
 }
 
 /* Recipe Box Text Style */
@@ -158,6 +158,8 @@ p {
 }
 
 /* Media Queries */
+
+/* For Small Screens (Tablets, Phones) */
 @media (max-width: 768px) {
   .hero-section {
     height: 80vh;
@@ -177,21 +179,52 @@ p {
   }
 
   .meal-grid {
-    grid-template-columns: repeat(3, 1fr); /* Keep 3 columns even on smaller screens */
+    grid-template-columns: 1fr 1fr; /* Switch to 2 columns on smaller screens */
+    grid-gap: 15px; /* Reduce the gap between items */
   }
 
   .meal-day {
     width: 100%;
+    height: auto; /* Adjust height for meal boxes */
+    padding: 15px;
   }
 
-  .content {
-    max-width: 100%;
+  h3 {
+    font-size: 1.5rem; /* Adjust font size for titles inside meal-day boxes */
+  }
+
+  p {
+    font-size: 0.9rem; /* Adjust font size for paragraphs inside meal-day boxes */
+  }
+
+  .recipe-container {
+    font-size: 0.9rem; /* Adjust font size for recipe box */
+    width: 80%; /* Make the recipe box take up more space on mobile */
+    max-width: 350px; /* Adjust max width of recipe box */
+  }
+
+  .recipe-container h3 {
+    font-size: 1.2rem; /* Smaller font size for title in recipe box */
+  }
+
+  .recipe-container p {
+    font-size: 0.9rem; /* Smaller font size for text inside recipe box */
+  }
+
+  .recipe-container .ingredient-list {
+    font-size: 0.8rem; /* Reduce font size for ingredient list */
+  }
+
+  .recipe-container .instructions {
+    font-size: 1rem; /* Adjust font size for instructions */
   }
 }
 
+/* For Larger Screens (Desktops and Tablets in Landscape) */
 @media (min-width: 1200px) {
   .meal-grid {
     max-width: 100%;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns for large screens */
   }
 
   .meal-day {
