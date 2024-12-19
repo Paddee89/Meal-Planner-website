@@ -9,7 +9,7 @@
 .hero-section {
   position: relative;
   height: 100vh;
-  background-image: url('diet.jpg'); /* Replace with any food-related image */
+  background-image: url('diet.jpg');
   background-size: cover;
   background-position: center;
   color: white;
@@ -20,24 +20,25 @@
 }
 
 .content {
-  background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+  background: rgba(0, 0, 0, 0.5);
   padding: 20px;
   border-radius: 10px;
+  max-width: 90%;
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 3rem; /* Adjust font size for the hero section title */
   margin-bottom: 10px;
   color: #ffdd57;
 }
 
 p {
-  font-size: 1.2rem;
+  font-size: 2rem; /* Adjust font size for the paragraph text in hero section */
   margin-bottom: 20px;
 }
 
 button {
-  font-size: 1.1rem;
+  font-size: 1.1rem; /* Adjust font size for the button text */
   padding: 10px 20px;
   color: #333;
   background-color: #ffdd57;
@@ -54,7 +55,7 @@ button:hover {
 /* Meal Plan Container */
 .background-page {
   position: relative;
-  height: 100vh;
+  min-height: 100vh;
   background-image: url('diet2.jpg');
   background-size: cover;
   background-position: center;
@@ -67,12 +68,11 @@ button:hover {
 
 .meal-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr); /* Ensures 3 boxes in a row */
   grid-gap: 20px;
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding-top: 150px; /* Increase padding-top to move the boxes down */
 }
 
 .meal-day {
@@ -82,10 +82,10 @@ button:hover {
   text-align: center;
   color: white;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-
-  /* Adjust the width and height of the meal boxes */
-  width: 400px; /* Set the desired width */
-  height: 300px; /* Set the desired height */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
 }
 
 .meal-day:hover {
@@ -95,56 +95,106 @@ button:hover {
 
 h3 {
   margin-bottom: 15px;
-  font-size: 3rem;
+  font-size: 2rem; /* Adjust font size for meal day titles */
 }
 
 p {
-  font-size: 1.8rem;
+  font-size: 1.8rem; /* Adjust font size for the paragraph text inside meal day box */
 }
 
 /* Recipe Box Text Style */
 .recipe-container {
-  font-size: 1rem; /* Default font size */
-  padding: 40px; /* Increased padding for larger spacing */
+  font-size: 1rem; /* Base font size for recipe box */
+  padding: 10px;
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.8);
   color: white;
-  position: fixed; /* Fix position so it's on top */
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 9999;
-  width: 600px; /* Larger width */
-  height: auto; /* Allow height to adjust based on content */
+  width: 90%;
+  max-width: 400px;
+  max-height: 70vh;
+  overflow-y: auto;
 }
 
-.recipe-container h2 {
-  font-size: 3rem; /* Larger font for the meal name */
-  margin-bottom: 20px; /* Add space below the title */
+/* Recipe Box Specific Font Sizes */
+.recipe-container h3 { 
+  font-size: 1.5rem; /* Adjust font size for the title in recipe box */
+  margin-bottom: 10px;
 }
 
-.recipe-container h3 {
-  font-size: 2rem; /* Slightly larger font for headings */
-  margin-bottom: 15px; /* Space between the heading and the list */
+.recipe-container p {
+  font-size: 1rem; /* Adjust font size for the description in recipe box */
+  margin-bottom: 15px;
 }
 
-.recipe-container ul {
-  font-size: 1.5rem; /* Default font size for the ingredient and directions list */
-  margin-bottom: 20px; /* Add space below the list */
+.recipe-container .ingredient-list {
+  font-size: 0.9rem; /* Adjust font size for the ingredient list in recipe box */
 }
 
-.recipe-container button {
-  margin-top: 20px; /* Space between directions and button */
-  padding: 10px 20px;
-  font-size: 1rem;
-  cursor: pointer;
-  border: none;
-  background-color: #4CAF50; /* Green background */
+.recipe-container .instructions {
+  font-size: 1.1rem; /* Adjust font size for the instructions in recipe box */
+}
+
+/* Shopping List Modal */
+.shopping-list-container {
+  font-size: 1rem; /* Adjust font size for shopping list modal text */
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
   color: white;
-  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  width: 90%;
+  max-width: 400px;
+  max-height: 70vh;
+  overflow-y: auto;
 }
 
-.recipe-container button:hover {
-  background-color: #45a049; /* Darker green on hover */
+/* Media Queries */
+@media (max-width: 768px) {
+  .hero-section {
+    height: 80vh;
+  }
+
+  h1 {
+    font-size: 2rem; /* Smaller font size for h1 on small screens */
+  }
+
+  p {
+    font-size: 1rem; /* Smaller font size for paragraphs on small screens */
+  }
+
+  button {
+    font-size: 0.9rem; /* Smaller font size for buttons on small screens */
+    padding: 8px 16px;
+  }
+
+  .meal-grid {
+    grid-template-columns: repeat(3, 1fr); /* Keep 3 columns even on smaller screens */
+  }
+
+  .meal-day {
+    width: 100%;
+  }
+
+  .content {
+    max-width: 100%;
+  }
 }
 
+@media (min-width: 1200px) {
+  .meal-grid {
+    max-width: 100%;
+  }
+
+  .meal-day {
+    max-width: 100%;
+  }
+}
