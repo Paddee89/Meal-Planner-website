@@ -82,10 +82,8 @@ button:hover {
   text-align: center;
   color: white;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-
-  /* Adjust the width and height of the meal boxes */
-  width: 400px; /* Set the desired width */
-  height: 300px; /* Set the desired height */
+  flex: 1 1 calc(33.333% - 20px); /* Default for larger screens */
+  box-sizing: border-box;
 }
 
 .meal-day:hover {
@@ -197,4 +195,30 @@ p {
 
 .shopping-list-container button:hover {
   background-color: #ffc107; /* Darker yellow on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .meal-grid {
+    grid-template-columns: repeat(2, 1fr); /* Adjust to 2 columns */
+  }
+
+  .meal-day {
+    flex: 1 1 calc(50% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .meal-grid {
+    grid-template-columns: repeat(1, 1fr); /* Adjust to 1 column */
+  }
+
+  .meal-day {
+    flex: 1 1 100%;
+  }
+
+  button {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
 }
