@@ -55,7 +55,7 @@ button:hover {
 /* Meal Plan Container */
 .background-page {
   position: relative;
-  height: 100%;
+  min-height: 100vh;
   background-image: url('diet2.jpg');
   background-size: cover;
   background-position: center;
@@ -64,17 +64,15 @@ button:hover {
   align-items: center;
   justify-content: center;
   padding: 20px;
-  flex-wrap: wrap;
 }
 
 .meal-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(3, 1fr); /* Ensures 3 boxes in a row */
   grid-gap: 20px;
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding-top: 150px;
 }
 
 .meal-day {
@@ -84,8 +82,10 @@ button:hover {
   text-align: center;
   color: white;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  width: 100%;
-  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
 }
 
 .meal-day:hover {
@@ -158,16 +158,24 @@ p {
   }
 
   .meal-grid {
-    grid-template-columns: 1fr;
-    padding-top: 50px;
+    grid-template-columns: repeat(3, 1fr); /* Keep 3 columns even on smaller screens */
   }
 
   .meal-day {
-    width: 90%;
-    height: auto;
+    width: 100%;
   }
 
   .content {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .meal-grid {
+    max-width: 100%;
+  }
+
+  .meal-day {
     max-width: 100%;
   }
 }
