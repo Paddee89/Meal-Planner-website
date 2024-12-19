@@ -1,0 +1,680 @@
+[
+  {
+    "name": "Baked lemon-herb chicken with quinoa and broccoli",
+    "type": "meat",
+    "carbSource": "quinoa",
+    "fat": 3,
+    "vegetableSource": "broccoli",
+    "ingredients": [
+      "4 chicken breasts",
+      "1 lemon",
+      "2 cups quinoa",
+      "2 cups broccoli"
+    ],
+    "directions": [
+      "Preheat oven to 375°F (190°C).",
+      "Season chicken breasts with lemon juice and herbs.",
+      "Bake chicken for 25-30 minutes until cooked through.",
+      "Cook quinoa as per package instructions.",
+      "Steam broccoli until tender.",
+      "Serve the chicken with quinoa and broccoli."
+    ]
+  },
+  {
+    "name": "Grilled salmon with sweet potatoes and asparagus",
+    "type": "fish",
+    "carbSource": "sweet potatoes",
+    "fat": 3,
+    "vegetableSource": "asparagus",
+    "ingredients": [
+      "2 salmon fillets",
+      "2 medium sweet potatoes",
+      "1 bunch asparagus"
+    ],
+    "directions": [
+      "Preheat grill to medium-high heat.",
+      "Season salmon fillets with olive oil and salt.",
+      "Grill salmon for 5-7 minutes per side.",
+      "Peel and chop sweet potatoes, then roast at 400°F for 25 minutes.",
+      "Grill asparagus for 5-7 minutes.",
+      "Serve salmon with roasted sweet potatoes and grilled asparagus."
+    ]
+  },
+  {
+    "name": "Chickpea vegetable curry with rice",
+    "type": "vegetarian",
+    "carbSource": "rice",
+    "fat": 3,
+    "vegetableSource": "carrots, peas, spinach",
+    "ingredients": [
+      "1 can chickpeas",
+      "1 cup rice",
+      "2 carrots, sliced",
+      "1 cup peas",
+      "1 cup spinach",
+      "1 cup coconut milk",
+      "2 tbsp curry powder"
+    ],
+    "directions": [
+      "Cook rice as per package instructions.",
+      "In a pan, sauté carrots and peas until tender.",
+      "Add chickpeas, spinach, and coconut milk.",
+      "Stir in curry powder and simmer for 10 minutes.",
+      "Serve curry with rice."
+    ]
+  },
+  {
+    "name": "Lentil bolognese with pasta and zucchini",
+    "type": "vegetarian",
+    "carbSource": "pasta",
+    "fat": 1,
+    "vegetableSource": "zucchini",
+    "ingredients": [
+      "1 cup lentils",
+      "1 zucchini, diced",
+      "2 cups pasta",
+      "1 can crushed tomatoes",
+      "1 onion, chopped"
+    ],
+    "directions": [
+      "Cook pasta as per package instructions.",
+      "In a pan, sauté onion and zucchini.",
+      "Add lentils and crushed tomatoes, simmer for 20 minutes.",
+      "Serve the bolognese over pasta."
+    ]
+  },
+  {
+    "name": "Beef stir-fry with noodles and bell peppers",
+    "type": "meat",
+    "carbSource": "noodles",
+    "fat": 3,
+    "vegetableSource": "bell peppers",
+    "ingredients": [
+      "1 lb beef strips",
+      "2 bell peppers, sliced",
+      "2 cups noodles",
+      "Soy sauce",
+      "Garlic"
+    ],
+    "directions": [
+      "Cook noodles as per package instructions.",
+      "Stir-fry beef strips with garlic until browned.",
+      "Add bell peppers and stir-fry for another 5 minutes.",
+      "Add soy sauce and cook for 2 minutes.",
+      "Serve stir-fry over noodles."
+    ]
+  },
+  {
+    "name": "Vegetable tofu stir-fry with cauliflower rice",
+    "type": "vegetarian",
+    "carbSource": "cauliflower rice",
+    "fat": 2,
+    "vegetableSource": "mixed vegetables",
+    "ingredients": [
+      "1 block tofu, cubed",
+      "2 cups cauliflower rice",
+      "1 cup mixed vegetables (e.g. carrots, peas, bell peppers)"
+    ],
+    "directions": [
+      "Stir-fry tofu until golden brown.",
+      "Add mixed vegetables and cook for 5 minutes.",
+      "Stir in cauliflower rice and cook until tender.",
+      "Serve the stir-fry hot."
+    ]
+  },
+  {
+    "name": "Grilled chicken with roasted vegetables and brown rice",
+    "type": "meat",
+    "carbSource": "brown rice",
+    "fat": 4,
+    "vegetableSource": "carrots, bell peppers, zucchini",
+    "ingredients": [
+      "4 chicken breasts",
+      "2 cups brown rice",
+      "2 carrots",
+      "1 bell pepper",
+      "1 zucchini",
+      "2 tbsp olive oil",
+      "1 tsp paprika",
+      "1 tsp garlic powder"
+    ],
+    "directions": [
+      "Preheat grill to medium heat.",
+      "Season chicken breasts with olive oil, paprika, and garlic powder.",
+      "Grill chicken for 6-8 minutes on each side until cooked through.",
+      "Cook brown rice according to package instructions.",
+      "Chop carrots, bell peppers, and zucchini and toss with olive oil.",
+      "Roast vegetables in the oven at 400°F (200°C) for 20-25 minutes until tender.",
+      "Serve the grilled chicken with roasted vegetables and brown rice."
+    ]
+  },
+  {
+    "name": "Salmon with quinoa and spinach",
+    "type": "fish",
+    "carbSource": "quinoa",
+    "fat": 5,
+    "vegetableSource": "spinach",
+    "ingredients": [
+      "4 salmon fillets",
+      "1 cup quinoa",
+      "2 cups spinach",
+      "2 tbsp olive oil",
+      "1 lemon",
+      "Salt and pepper to taste"
+    ],
+    "directions": [
+      "Preheat oven to 375°F (190°C).",
+      "Season salmon fillets with olive oil, lemon juice, salt, and pepper.",
+      "Bake salmon in the oven for 15-20 minutes until cooked through.",
+      "Cook quinoa as per package instructions.",
+      "Sauté spinach in a pan with olive oil until wilted.",
+      "Serve the salmon with quinoa and sautéed spinach."
+    ]
+  },
+  {
+    "name": "Chicken stir-fry with broccoli and bell peppers",
+    "type": "meat",
+    "carbSource": "none",
+    "fat": 3,
+    "vegetableSource": "broccoli, bell peppers",
+    "ingredients": [
+      "4 chicken breasts",
+      "2 cups broccoli florets",
+      "2 bell peppers",
+      "2 tbsp soy sauce",
+      "1 tbsp sesame oil",
+      "2 tsp ginger",
+      "2 cloves garlic"
+    ],
+    "directions": [
+      "Slice chicken breasts into strips.",
+      "Heat sesame oil in a pan and sauté garlic and ginger.",
+      "Add chicken strips and cook until browned.",
+      "Add broccoli and bell peppers and stir-fry for 5-7 minutes.",
+      "Pour in soy sauce and continue to cook for another 2 minutes.",
+      "Serve the stir-fry as is or with cauliflower rice."
+    ]
+  },
+  {
+    "name": "Beef and vegetable kebabs with couscous",
+    "type": "meat",
+    "carbSource": "couscous",
+    "fat": 6,
+    "vegetableSource": "bell peppers, onions",
+    "ingredients": [
+      "2 lbs beef cubes",
+      "2 bell peppers",
+      "1 onion",
+      "2 cups couscous",
+      "2 tbsp olive oil",
+      "1 tbsp lemon juice",
+      "1 tsp cumin",
+      "1 tsp paprika"
+    ],
+    "directions": [
+      "Preheat grill to medium-high heat.",
+      "Thread beef cubes, bell peppers, and onions onto skewers.",
+      "Brush with olive oil and season with cumin, paprika, and lemon juice.",
+      "Grill kebabs for 10-12 minutes until beef is cooked to your desired doneness.",
+      "Cook couscous according to package instructions.",
+      "Serve the kebabs with couscous."
+    ]
+  },
+  {
+    "name": "Eggplant and lentil curry",
+    "type": "vegetarian",
+    "carbSource": "rice",
+    "fat": 2,
+    "vegetableSource": "eggplant",
+    "ingredients": [
+      "1 eggplant",
+      "1 cup lentils",
+      "1 can coconut milk",
+      "1 can diced tomatoes",
+      "1 onion",
+      "2 cloves garlic",
+      "1 tbsp curry powder",
+      "2 cups rice"
+    ],
+    "directions": [
+      "Cook rice according to package instructions.",
+      "Dice eggplant and sauté in a pan with garlic and onion.",
+      "Add curry powder and cook for another 2 minutes.",
+      "Add lentils, coconut milk, and diced tomatoes to the pan.",
+      "Simmer for 20-25 minutes until lentils are tender.",
+      "Serve the curry over rice."
+    ]
+  },
+  {
+    "name": "Finger food",
+    "type": "cheatday",
+    "carbSource": "fries",
+    "fat": 5,
+    "vegetableSource": "none",
+    "ingredients": [
+      "frozen chicken pieces",
+      "cheese bits",
+      "fries"
+    ],
+    "directions": [
+      "Bake everything in the oven."
+    ]
+  },
+  {
+    "name": "Tofu stir-fry with mixed vegetables and noodles",
+    "type": "vegetarian",
+    "carbSource": "pasta",
+    "fat": 4,
+    "vegetableSource": "mixed vegetables (carrots, peas, snow peas)",
+    "ingredients": [
+      "1 block tofu",
+      "2 cups mixed vegetables",
+      "2 cups noodles",
+      "2 tbsp soy sauce",
+      "1 tbsp sesame oil",
+      "1 tbsp ginger",
+      "2 cloves garlic"
+    ],
+    "directions": [
+      "Press tofu to remove excess moisture and slice into cubes.",
+      "Cook noodles according to package instructions.",
+      "Heat sesame oil in a pan and sauté garlic and ginger.",
+      "Add tofu cubes and cook until golden brown.",
+      "Add mixed vegetables and stir-fry for 5 minutes.",
+      "Add soy sauce and continue to cook for another 2 minutes.",
+      "Serve the stir-fry with noodles."
+    ]
+  },
+  {
+    "name": "Classic Cheeseburger with Fries",
+    "type": "cheatday",
+    "carbSource": "burger buns and fries",
+    "fat": 5,
+    "vegetableSource": "lettuce, tomato, pickles, potatoes",
+    "ingredients": [
+      "2 burger buns",
+      "2 beef patties",
+      "4 slices cheddar cheese",
+      "Lettuce leaves",
+      "Tomato slices",
+      "Pickles",
+      "2 tbsp mayonnaise",
+      "1 tbsp ketchup",
+      "2 large potatoes",
+      "1 cup vegetable oil",
+      "Salt and pepper"
+    ],
+    "directions": [
+      "Grill beef patties over medium heat for 4–5 minutes on each side, adding cheddar cheese for the last minute.",
+      "Toast the burger buns.",
+      "Assemble the burgers with lettuce, tomato, pickles, mayonnaise, and ketchup.",
+      "Cut potatoes into fries, fry them in hot oil until golden, and season with salt.",
+      "Serve the cheeseburgers with fries on the side."
+    ]
+  },
+  {
+    "name": "Loaded Nachos",
+    "type": "cheatday",
+    "carbSource": "tortilla chips",
+    "fat": 5,
+    "vegetableSource": "tomatoes, black beans, jalapeños, cilantro",
+    "ingredients": [
+      "200g tortilla chips",
+      "1 cup shredded cheddar cheese",
+      "1 cup cooked ground beef",
+      "1/2 cup black beans",
+      "1/2 cup diced tomatoes",
+      "1/4 cup sliced jalapeños",
+      "1/4 cup sour cream",
+      "2 tbsp guacamole",
+      "1 tbsp chopped cilantro"
+    ],
+    "directions": [
+      "Preheat oven to 375°F (190°C).",
+      "Spread tortilla chips on a baking tray and layer with cheese, ground beef, black beans, and tomatoes.",
+      "Bake for 5–7 minutes until the cheese melts.",
+      "Top with sour cream, guacamole, jalapeños, and cilantro.",
+      "Serve immediately."
+    ]
+  },
+  {
+    "name": "Mac and Cheese",
+    "type": "cheatday",
+    "carbSource": "macaroni",
+    "fat": 5,
+    "vegetableSource": "none",
+    "ingredients": [
+      "250g elbow macaroni",
+      "2 cups milk",
+      "2 cups shredded cheddar cheese",
+      "1 cup shredded mozzarella cheese",
+      "2 tbsp butter",
+      "2 tbsp flour",
+      "1/2 tsp garlic powder",
+      "1/4 tsp paprika",
+      "Salt and pepper"
+    ],
+    "directions": [
+      "Cook macaroni according to package instructions.",
+      "In a saucepan, melt butter and stir in flour to make a roux.",
+      "Gradually whisk in milk and cook until thickened.",
+      "Add cheddar, mozzarella, garlic powder, and paprika; stir until melted.",
+      "Combine the cheese sauce with cooked macaroni and serve hot."
+    ]
+  },
+  {
+    "name": "Pepperoni Pizza",
+    "type": "cheatday",
+    "carbSource": "pizza crust",
+    "fat": 5,
+    "vegetableSource": "tomato sauce",
+    "ingredients": [
+      "1 pre-made pizza crust",
+      "1/2 cup marinara sauce",
+      "1 cup shredded mozzarella cheese",
+      "12 slices of pepperoni",
+      "1 tbsp olive oil",
+      "1/2 tsp dried oregano"
+    ],
+    "directions": [
+      "Preheat oven to 450°F (230°C).",
+      "Spread marinara sauce over the pizza crust.",
+      "Sprinkle with mozzarella cheese and top with pepperoni slices.",
+      "Drizzle olive oil and sprinkle oregano on top.",
+      "Bake for 12–15 minutes until the crust is golden and the cheese is bubbly."
+    ]
+  },
+  {
+    "name": "Lemon Garlic Chicken with Spinach and Couscous",
+    "type": "meat",
+    "carbSource": "couscous",
+    "fat": 4,
+    "vegetableSource": "spinach",
+    "ingredients": [
+      "4 chicken breasts",
+      "1 cup couscous",
+      "2 cups spinach",
+      "2 garlic cloves, minced",
+      "1 lemon, juiced",
+      "1 tbsp olive oil"
+    ],
+    "directions": [
+      "Cook couscous as per package instructions.",
+      "Sauté garlic in olive oil until fragrant.",
+      "Add chicken and cook until browned.",
+      "Stir in lemon juice and spinach until wilted.",
+      "Serve the chicken with couscous and spinach."
+    ]
+  },
+  {
+    "name": "Veggie-Packed Chili",
+    "type": "vegetarian",
+    "carbSource": "beans",
+    "fat": 3,
+    "vegetableSource": "tomatoes, bell peppers, onions",
+    "ingredients": [
+      "1 can kidney beans",
+      "1 can black beans",
+      "1 onion, chopped",
+      "2 bell peppers, diced",
+      "2 cups diced tomatoes",
+      "1 tbsp chili powder",
+      "1 tbsp olive oil"
+    ],
+    "directions": [
+      "Heat olive oil in a pot, sauté onion and bell peppers.",
+      "Add beans, diced tomatoes, and chili powder.",
+      "Simmer for 20 minutes, stirring occasionally.",
+      "Serve hot."
+    ]
+  },
+  {
+    "name": "Chicken Caesar Salad",
+    "type": "meat",
+    "carbSource": "none",
+    "fat": 5,
+    "vegetableSource": "romaine lettuce",
+    "ingredients": [
+      "4 chicken breasts",
+      "6 cups romaine lettuce",
+      "1/2 cup Caesar dressing",
+      "1/4 cup grated parmesan",
+      "1 cup croutons"
+    ],
+    "directions": [
+      "Grill or pan-fry chicken breasts.",
+      "Chop lettuce and toss with Caesar dressing.",
+      "Slice chicken and add to salad with croutons and parmesan.",
+      "Serve immediately."
+    ]
+  },
+  {
+    "name": "Quinoa-Stuffed Bell Peppers",
+    "type": "vegetarian",
+    "carbSource": "quinoa",
+    "fat": 2,
+    "vegetableSource": "bell peppers",
+    "ingredients": [
+      "4 bell peppers",
+      "1 cup quinoa",
+      "1 can diced tomatoes",
+      "1 cup black beans",
+      "1 tsp cumin"
+    ],
+    "directions": [
+      "Cook quinoa according to package instructions.",
+      "Cut the tops off bell peppers and remove seeds.",
+      "Mix quinoa, diced tomatoes, black beans, and cumin.",
+      "Stuff the peppers with the mixture and bake at 375°F for 25 minutes.",
+      "Serve hot."
+    ]
+  },
+  {
+    "name": "Spaghetti with Lentil Marinara",
+    "type": "vegetarian",
+    "carbSource": "spaghetti",
+    "fat": 2,
+    "vegetableSource": "tomatoes, onions",
+    "ingredients": [
+      "1 cup lentils",
+      "2 cups pasta",
+      "1 can crushed tomatoes",
+      "1 onion, chopped",
+      "2 cloves garlic, minced"
+    ],
+    "directions": [
+      "Cook pasta according to package instructions.",
+      "Sauté onion and garlic in olive oil until translucent.",
+      "Add lentils and crushed tomatoes, simmer for 20 minutes.",
+      "Serve lentil marinara over pasta."
+    ]
+  },
+  {
+    "name": "Beef and Vegetable Stir-Fry",
+    "type": "meat",
+    "carbSource": "none",
+    "fat": 4,
+    "vegetableSource": "broccoli, bell peppers",
+    "ingredients": [
+      "1 lb beef strips",
+      "2 bell peppers, sliced",
+      "2 cups broccoli florets",
+      "2 tbsp soy sauce",
+      "1 tbsp sesame oil"
+    ],
+    "directions": [
+      "Heat sesame oil in a pan and cook beef strips until browned.",
+      "Add vegetables and stir-fry for 5-7 minutes.",
+      "Add soy sauce and stir to combine.",
+      "Serve hot."
+    ]
+  },
+  {
+    "name": "Chicken and Veggie Fajitas",
+    "type": "meat",
+    "carbSource": "tortillas",
+    "fat": 3,
+    "vegetableSource": "bell peppers, onions",
+    "ingredients": [
+      "4 chicken breasts",
+      "2 bell peppers, sliced",
+      "1 onion, sliced",
+      "2 tbsp fajita seasoning",
+      "4 tortillas"
+    ],
+    "directions": [
+      "Season chicken with fajita seasoning and cook in a pan.",
+      "Sauté bell peppers and onions until tender.",
+      "Warm tortillas and fill with chicken and vegetables.",
+      "Serve with salsa and sour cream."
+    ]
+  },
+  {
+    "name": "Stuffed Sweet Potatoes",
+    "type": "vegetarian",
+    "carbSource": "sweet potatoes",
+    "fat": 3,
+    "vegetableSource": "spinach, black beans",
+    "ingredients": [
+      "4 sweet potatoes",
+      "2 cups spinach",
+      "1 can black beans",
+      "1/4 cup sour cream",
+      "1 tsp cumin"
+    ],
+    "directions": [
+      "Roast sweet potatoes at 400°F for 40 minutes.",
+      "Sauté spinach until wilted and mix with black beans and cumin.",
+      "Cut sweet potatoes open and stuff with spinach and bean mixture.",
+      "Top with sour cream and serve."
+    ]
+  },
+  {
+    "name": "Eggplant Parmesan",
+    "type": "vegetarian",
+    "carbSource": "none",
+    "fat": 4,
+    "vegetableSource": "eggplant, tomatoes",
+    "ingredients": [
+      "2 eggplants",
+      "1 cup marinara sauce",
+      "1/2 cup breadcrumbs",
+      "1/4 cup grated parmesan",
+      "1 cup shredded mozzarella"
+    ],
+    "directions": [
+      "Slice eggplant and bread it with breadcrumbs.",
+      "Fry until golden and place in a baking dish.",
+      "Top with marinara sauce and cheeses.",
+      "Bake at 375°F for 20 minutes."
+    ]
+  },
+  {
+    "name": "Zucchini Noodles with Pesto",
+    "type": "vegetarian",
+    "carbSource": "zucchini noodles",
+    "fat": 5,
+    "vegetableSource": "zucchini, basil",
+    "ingredients": [
+      "4 zucchinis, spiralized",
+      "1/4 cup pesto",
+      "1 tbsp olive oil",
+      "1/4 cup grated parmesan"
+    ],
+    "directions": [
+      "Sauté zucchini noodles in olive oil for 2-3 minutes.",
+      "Toss with pesto and top with parmesan.",
+      "Serve immediately."
+    ]
+  },
+  {
+    "name": "Chicken and Vegetable Skewers",
+    "type": "meat",
+    "carbSource": "none",
+    "fat": 3,
+    "vegetableSource": "bell peppers, onions, zucchini",
+    "ingredients": [
+      "4 chicken breasts, cubed",
+      "1 bell pepper",
+      "1 onion",
+      "1 zucchini",
+      "2 tbsp olive oil",
+      "1 tbsp lemon juice"
+    ],
+    "directions": [
+      "Thread chicken and vegetables onto skewers.",
+      "Brush with olive oil and lemon juice.",
+      "Grill for 10-12 minutes until cooked through.",
+      "Serve hot."
+    ]
+  },
+  {
+    "name": "Mushroom and Spinach Risotto",
+    "type": "vegetarian",
+    "carbSource": "arborio rice",
+    "fat": 4,
+    "vegetableSource": "mushrooms, spinach",
+    "ingredients": [
+      "1 cup arborio rice",
+      "2 cups vegetable broth",
+      "1 cup mushrooms, sliced",
+      "2 cups spinach",
+      "1/2 cup parmesan"
+    ],
+    "directions": [
+      "Cook arborio rice in vegetable broth until creamy.",
+      "Sauté mushrooms and spinach until tender.",
+      "Stir in mushrooms, spinach, and parmesan.",
+      "Serve hot."
+    ]
+  },
+  {
+    "name": "Pork Tenderloin with Roasted Vegetables",
+    "type": "meat",
+    "carbSource": "potatoes",
+    "fat": 5,
+    "vegetableSource": "carrots, potatoes, onions",
+    "ingredients": [
+      "1 lb pork tenderloin",
+      "2 carrots, sliced",
+      "2 potatoes, diced",
+      "1 onion, chopped",
+      "1 tbsp olive oil"
+    ],
+    "directions": [
+      "Roast pork at 375°F for 25 minutes.",
+      "Toss vegetables with olive oil and roast for 20 minutes.",
+      "Serve pork with roasted vegetables."
+    ]
+  },
+{
+  "name": "Zücher Geschnetzeltes with Pasta",
+  "type": "meat",
+  "carbSource": "pasta",
+  "fat": 5,
+  "vegetableSource": "none",
+  "ingredients": [
+    "500g veal or chicken breast, sliced into strips",
+    "1 onion, finely chopped",
+    "2 cloves garlic, minced",
+    "200ml white wine",
+    "200ml heavy cream",
+    "2 tbsp butter",
+    "1 tbsp flour",
+    "1 tsp paprika",
+    "1 tbsp vegetable oil",
+    "1 tbsp parsley, chopped",
+    "300g pasta (e.g. tagliatelle or fettuccine)",
+    "Salt and pepper to taste"
+  ],
+  "directions": [
+    "Cook pasta according to package instructions.",
+    "In a large pan, heat vegetable oil over medium heat and sauté the sliced veal or chicken until browned.",
+    "Add onion and garlic to the pan and cook until softened.",
+    "Stir in flour and paprika, cook for 1-2 minutes.",
+    "Pour in white wine, stirring constantly, and cook for 3-4 minutes until slightly reduced.",
+    "Add the heavy cream, salt, and pepper, and simmer for 5-7 minutes until the sauce thickens.",
+    "Serve the Zücher Geschnetzeltes over the cooked pasta, garnished with parsley."
+  ]
+}
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Baked lemon-herb chicken with quinoa and broccoli",
+    "type": "meat",
+    "carbSource": "quinoa",
+    "fat": 3,
+    "vegetableSource": "broccoli"
+  },
+  {
+    "name": "Grilled salmon with sweet potatoes and asparagus",
+    "type": "fish",
+    "carbSource": "sweet potato",
+    "fat": 3,
+    "vegetableSource": "asparagus"
+  },
+  {
+    "name": "Chickpea vegetable curry with rice",
+    "type": "vegetarian",
+    "carbSource": "rice",
+    "fat": 3,
+    "vegetableSource": "carrots, peas, spinach"
+  },
+  {
+    "name": "Lentil bolognese with pasta and zucchini",
+    "type": "vegetarian",
+    "carbSource": "pasta",
+    "fat": 1,
+    "vegetableSource": "zucchini"
+  },
+  {
+    "name": "Beef stir-fry with noodles and bell peppers",
+    "type": "meat",
+    "carbSource": "noodles",
+    "fat": 3,
+    "vegetableSource": "bell peppers"
+  },
+  {
+    "name": "Vegetable tofu stir-fry with cauliflower rice",
+    "type": "vegetarian",
+    "carbSource": "cauliflower rice",
+    "fat": 2,
+    "vegetableSource": "mixed vegetables"
+  }
+]
