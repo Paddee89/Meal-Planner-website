@@ -118,12 +118,14 @@ function displayMealPlan(mealPlan) {
     const mealBox = document.createElement("div");
     mealBox.classList.add("meal-day");
     mealBox.innerHTML = `
-      <h3>${dayNames[index]}</h3>
-      <p>${meal.name}</p>
-      <button class="replace-button" data-meal-type="${meal.type}" data-index="${index}">Replace</button>
-      <button class="takeout-button">Takeout day</button>
-      <button class="cheatday-button" data-index="${index}">Cheat day</button>
-    `;
+  <h3>${dayNames[index]}</h3>
+  <p>${meal.name}</p>
+  <div class="button-container">
+    <button class="replace-button" data-meal-type="${meal.type}" data-index="${index}">Replace</button>
+    <button class="takeout-button">Takeout day</button>
+    <button class="cheatday-button" data-index="${index}">Cheat day</button>
+  </div>
+`;
 
     // Add event listeners
     mealBox.querySelector('.replace-button').addEventListener('click', (e) => {
