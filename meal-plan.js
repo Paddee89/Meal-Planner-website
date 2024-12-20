@@ -226,6 +226,110 @@ async function replaceWithCheatMeal(meal, mealPlan, index) {
   }
 }
 
+// Save the current meal plan to localStorage
+function saveMealPlan() {
+  const mealPlanName = document.getElementById('meal-plan-name').value.trim();
+  
+  if (!mealPlanName) {
+    alert('Please enter a meal plan name.');
+    return;
+  }
+
+  if (!window.currentMealPlan || window.currentMealPlan.length === 0) {
+    alert('No meal plan generated to save.');
+    return;
+  }
+
+  // Create an object to store the meal plan
+  const mealPlanToSave = {
+    name: mealPlanName,
+    meals: window.currentMealPlan
+  };
+
+  // Save to localStorage
+  let savedPlans = JSON.parse(localStorage.getItem('savedMealPlans')) || [];
+  savedPlans.push(mealPlanToSave);
+  localStorage.setItem('savedMealPlans', JSON.stringify(savedPlans));
+
+  alert('Meal plan saved!');
+  loadSavedMealPlans();  // Reload the saved plans dropdown
+}
+
+// Load saved meal plans into the dropdown
+function loadSavedMealPlans() {
+  const savedPlansDropdown = document.getElementById('saved-plans-dropdown');
+  const savedPlans = JSON.parse(localStorage.getItem('savedMealPlans')) || [];
+
+  // Clear existing options
+  savedPlansDropdown.innerHTML = '<option value="">Select Saved Meal Plan</option>';
+
+  // Populate the dropdown with saved meal plans
+  savedPlans.forEach(plan => {
+    const option = document.createElement('option');
+    option.value = plan.name;
+    option.textContent = plan.name;
+    savedPlansDropdown.appendChild(option);
+  });
+}
+
+// Load the selected meal plan into the meal grid
+function loadMealPlan() {
+  const savedPlansDropdown = document.getElementById('saved-plans-dropdown');
+  const selectedPlanName = savedPlansDropdown.value;
+
+  if (!selectedPlanName) {
+    alert('Please select a saved meal plan.');
+    return;
+  }
+
+  // Find the selected meal plan from localStorage
+  const savedPlans = JSON.parse(localStorage.getItem('savedMealPlans')) || [];
+  const selectedPlan = savedPlans.find(plan => plan.name === selectedPlanName);
+
+  if (selectedPlan) {
+    // Load the meals into the current meal plan
+    window.currentMealPlan = selectedPlan.meals;
+    displayMealPlan(window.currentMealPlan);  // Display the selected meal plan
+  } else {
+    alert('Meal plan not found.');
+  }
+}
+
+// Event listeners
+document.getElementById('save-button').addEventListener('click', saveMealPlan);
+document.getElementById('saved-plans-dropdown').addEventListener('change', loadMealPlan);
+
+// When the page loads, load the saved meal plans into the dropdown
+document.addEventListener('DOMContentLoaded', loadSavedMealPlans);
+
+// Delete the selected meal plan
+function deleteMealPlan() {
+  const savedPlansDropdown = document.getElementById('saved-plans-dropdown');
+  const selectedPlanName = savedPlansDropdown.value;
+
+  if (!selectedPlanName) {
+    alert('Please select a saved meal plan to delete.');
+    return;
+  }
+
+  // Retrieve saved meal plans from localStorage
+  let savedPlans = JSON.parse(localStorage.getItem('savedMealPlans')) || [];
+
+  // Filter out the plan to be deleted
+  const updatedPlans = savedPlans.filter(plan => plan.name !== selectedPlanName);
+
+  // Save the updated plans back to localStorage
+  localStorage.setItem('savedMealPlans', JSON.stringify(updatedPlans));
+
+  alert(`Meal plan "${selectedPlanName}" deleted successfully!`);
+
+  // Reload the dropdown
+  loadSavedMealPlans();
+}
+
+// Add event listener for the delete button
+document.getElementById('delete-button').addEventListener('click', deleteMealPlan);
+
 // Event listeners
 document.getElementById('generate-button').addEventListener('click', generateMealPlan);
 document.getElementById('shopping-list-button').addEventListener('click', () => {
@@ -254,42 +358,17 @@ function generateShoppingList(mealData) {
   // Show the shopping list container
   document.querySelector('.shopping-list-container').style.display = 'block';
 
-  // Loop through each meal in the mealData and generate the shopping list
+  // Extract ingredients and quantities from mealData
   mealData.forEach(meal => {
-    // Remove everything after the first comma (if any)
-    const cleanIngredients = meal.ingredients.map(ingredient => {
-      return ingredient.split(',')[0].trim(); // Split by comma and take the first part
-    });
-
-    // Add each cleaned ingredient to the shopping list
-    cleanIngredients.forEach(ingredient => {
+    meal.ingredients.forEach(ingredient => {
       const listItem = document.createElement('li');
       listItem.textContent = ingredient;
       shoppingListContainer.appendChild(listItem);
     });
   });
 
-  // Add download functionality to the "Download" button
-  const downloadButton = document.getElementById('download-button');
-  downloadButton.addEventListener('click', function() {
-    const shoppingListText = Array.from(shoppingListContainer.children)
-      .map(item => item.textContent)
-      .join('\n'); // Join items with a new line for the text file
-    
-    // Create a Blob with the shopping list text
-    const blob = new Blob([shoppingListText], { type: 'text/plain' });
-    
-    // Create a link element to trigger the download
-    const link = document.createElement('a');
-    link.href = URL.createObjectURL(blob);
-    link.download = 'shopping-list.txt'; // Filename for the downloaded file
-    
-    // Programmatically click the link to trigger the download
-    link.click();
-  });
-
-  // Event listener to close the shopping list
+  // Close the shopping list when the close button is clicked
   closeButton.addEventListener('click', () => {
-    document.querySelector('.shopping-list-container').style.display = 'none'; // Hide the shopping list container
+    document.querySelector('.shopping-list-container').style.display = 'none';
   });
 }
