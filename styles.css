@@ -102,6 +102,43 @@ p {
   font-size: 1.7rem; /* Adjust font size for the paragraph text inside meal day box */
 }
 
+/* Updated Button Layout */
+.meal-day button {
+  display: inline-flex; /* Ensures buttons are in a line */
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px;
+  margin: 5px;
+  font-size: 1rem;
+}
+
+.replace-button {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.replace-button:hover {
+  background-color: #45a049;
+}
+
+.takeout-button {
+  background-color: #f44336; /* Red */
+  color: white;
+}
+
+.takeout-button:hover {
+  background-color: #e53935;
+}
+
+.cheatday-button {
+  background-color: #ff9800; /* Orange */
+  color: white;
+}
+
+.cheatday-button:hover {
+  background-color: #fb8c00;
+}
+
 /* Recipe Box Text Style */
 .recipe-container {
   font-size: 1rem; /* Base font size for recipe box */
