@@ -112,33 +112,6 @@ p {
   font-size: 1rem;
 }
 
-.replace-button {
-  background-color: #4CAF50; /* Green */
-  color: white;
-}
-
-.replace-button:hover {
-  background-color: #45a049;
-}
-
-.takeout-button {
-  background-color: #f44336; /* Red */
-  color: white;
-}
-
-.takeout-button:hover {
-  background-color: #e53935;
-}
-
-.cheatday-button {
-  background-color: #ff9800; /* Orange */
-  color: white;
-}
-
-.cheatday-button:hover {
-  background-color: #fb8c00;
-}
-
 /* Recipe Box Text Style */
 .recipe-container {
   font-size: 1rem; /* Base font size for recipe box */
