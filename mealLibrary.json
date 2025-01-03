@@ -1,109 +1,5 @@
 [
   {
-    "name": "Chicken and Vegetable Soup",
-    "type": "meat",
-    "carbSource": "potatoes",
-    "fat": 3,
-    "vegetableSource": "carrots, celery, onions",
-    "ingredients": [
-      "2 lbs chicken breast",
-      "3 large carrots",
-      "2 celery stalks",
-      "1 onion",
-      "2 medium potatoes",
-      "4 cups chicken broth",
-      "1 tbsp olive oil",
-      "1 tsp thyme",
-      "1 tsp garlic powder",
-      "Salt and pepper to taste"
-    ],
-    "directions": [
-      "Heat olive oil in a large pot over medium heat.",
-      "Add chicken breast and cook until browned on both sides, about 5-7 minutes.",
-      "Remove chicken and set aside. In the same pot, add diced carrots, celery, and onions. Cook for 5 minutes.",
-      "Add cubed potatoes, chicken broth, thyme, garlic powder, salt, and pepper.",
-      "Bring to a boil, then reduce heat and simmer for 20-25 minutes, until vegetables are tender.",
-      "Shred the chicken and return it to the soup. Simmer for another 5 minutes before serving."
-    ]
-  },
-  {
-    "name": "Lentil Soup",
-    "type": "vegetarian",
-    "carbSource": "lentils",
-    "fat": 2,
-    "vegetableSource": "tomatoes, carrots, celery, onions",
-    "ingredients": [
-      "1 cup dried lentils",
-      "2 medium carrots",
-      "2 celery stalks",
-      "1 onion",
-      "2 tomatoes",
-      "4 cups vegetable broth",
-      "2 tbsp olive oil",
-      "1 tsp cumin",
-      "1 tsp turmeric",
-      "Salt and pepper to taste"
-    ],
-    "directions": [
-      "Rinse the lentils and set aside.",
-      "Heat olive oil in a large pot over medium heat. Add diced onions, carrots, and celery. Cook for 5 minutes.",
-      "Add chopped tomatoes, cumin, turmeric, salt, and pepper. Stir well.",
-      "Add lentils and vegetable broth. Bring to a boil, then reduce heat and simmer for 30-40 minutes, until lentils are tender.",
-      "Blend part of the soup with an immersion blender for a creamier texture, or serve as is."
-    ]
-  },
-  {
-    "name": "Tomato Basil Soup",
-    "type": "vegetarian",
-    "carbSource": "tomatoes",
-    "fat": 1,
-    "vegetableSource": "onions, garlic",
-    "ingredients": [
-      "6 large tomatoes",
-      "1 onion",
-      "2 cloves garlic",
-      "2 cups vegetable broth",
-      "1 tbsp olive oil",
-      "1 tsp dried basil",
-      "Salt and pepper to taste",
-      "1/2 cup cream (optional)"
-    ],
-    "directions": [
-      "Heat olive oil in a large pot over medium heat. Add diced onions and garlic and cook for 5 minutes.",
-      "Add chopped tomatoes, vegetable broth, basil, salt, and pepper.",
-      "Bring to a boil, then reduce heat and simmer for 15-20 minutes.",
-      "Blend the soup with an immersion blender until smooth.",
-      "Stir in cream if desired, then serve hot."
-    ]
-  },
-  {
-    "name": "Beef and Barley Soup",
-    "type": "meat",
-    "carbSource": "barley",
-    "fat": 4,
-    "vegetableSource": "carrots, onions, celery",
-    "ingredients": [
-      "1 lb beef stew meat",
-      "2 medium carrots",
-      "2 celery stalks",
-      "1 onion",
-      "1 cup barley",
-      "4 cups beef broth",
-      "2 tbsp olive oil",
-      "1 tsp thyme",
-      "1 tsp bay leaves",
-      "Salt and pepper to taste"
-    ],
-    "directions": [
-      "Heat olive oil in a large pot over medium heat. Brown the beef stew meat on all sides, about 5-7 minutes.",
-      "Remove beef and set aside. Add diced carrots, celery, and onion to the pot and cook for 5 minutes.",
-      "Add barley, beef broth, thyme, bay leaves, salt, and pepper. Bring to a boil.",
-      "Reduce heat, cover, and simmer for 1 hour, or until beef and barley are tender.",
-      "Remove bay leaves and serve hot."
-    ]
-  },
-[
-  {
     "name": "Baked lemon-herb chicken with quinoa and broccoli",
     "type": "meat",
     "carbSource": "quinoa",
@@ -303,7 +199,7 @@
     "name": "Beef and vegetable kebabs with couscous",
     "type": "meat",
     "carbSource": "couscous",
-    "fat": 5,
+    "fat": 6,
     "vegetableSource": "bell peppers, onions",
     "ingredients": [
       "2 lbs beef cubes",
@@ -780,5 +676,108 @@
     "Add the heavy cream, salt, and pepper, and simmer for 5-7 minutes until the sauce thickens.",
     "Serve the Zücher Geschnetzeltes over the cooked pasta, garnished with parsley."
   ]
-}
+},
+{
+    "name": "Chicken and Vegetable Soup",
+    "type": "meat",
+    "carbSource": "potatoes",
+    "fat": 3,
+    "vegetableSource": "carrots, celery, onions",
+    "ingredients": [
+      "2 lbs chicken breast",
+      "3 large carrots",
+      "2 celery stalks",
+      "1 onion",
+      "2 medium potatoes",
+      "4 cups chicken broth",
+      "1 tbsp olive oil",
+      "1 tsp thyme",
+      "1 tsp garlic powder",
+      "Salt and pepper to taste"
+    ],
+    "directions": [
+      "Heat olive oil in a large pot over medium heat.",
+      "Add chicken breast and cook until browned on both sides, about 5-7 minutes.",
+      "Remove chicken and set aside. In the same pot, add diced carrots, celery, and onions. Cook for 5 minutes.",
+      "Add cubed potatoes, chicken broth, thyme, garlic powder, salt, and pepper.",
+      "Bring to a boil, then reduce heat and simmer for 20-25 minutes, until vegetables are tender.",
+      "Shred the chicken and return it to the soup. Simmer for another 5 minutes before serving."
+    ]
+  },
+  {
+    "name": "Lentil Soup",
+    "type": "vegetarian",
+    "carbSource": "lentils",
+    "fat": 2,
+    "vegetableSource": "tomatoes, carrots, celery, onions",
+    "ingredients": [
+      "1 cup dried lentils",
+      "2 medium carrots",
+      "2 celery stalks",
+      "1 onion",
+      "2 tomatoes",
+      "4 cups vegetable broth",
+      "2 tbsp olive oil",
+      "1 tsp cumin",
+      "1 tsp turmeric",
+      "Salt and pepper to taste"
+    ],
+    "directions": [
+      "Rinse the lentils and set aside.",
+      "Heat olive oil in a large pot over medium heat. Add diced onions, carrots, and celery. Cook for 5 minutes.",
+      "Add chopped tomatoes, cumin, turmeric, salt, and pepper. Stir well.",
+      "Add lentils and vegetable broth. Bring to a boil, then reduce heat and simmer for 30-40 minutes, until lentils are tender.",
+      "Blend part of the soup with an immersion blender for a creamier texture, or serve as is."
+    ]
+  },
+  {
+    "name": "Tomato Basil Soup",
+    "type": "vegetarian",
+    "carbSource": "tomatoes",
+    "fat": 1,
+    "vegetableSource": "onions, garlic",
+    "ingredients": [
+      "6 large tomatoes",
+      "1 onion",
+      "2 cloves garlic",
+      "2 cups vegetable broth",
+      "1 tbsp olive oil",
+      "1 tsp dried basil",
+      "Salt and pepper to taste",
+      "1/2 cup cream (optional)"
+    ],
+    "directions": [
+      "Heat olive oil in a large pot over medium heat. Add diced onions and garlic and cook for 5 minutes.",
+      "Add chopped tomatoes, vegetable broth, basil, salt, and pepper.",
+      "Bring to a boil, then reduce heat and simmer for 15-20 minutes.",
+      "Blend the soup with an immersion blender until smooth.",
+      "Stir in cream if desired, then serve hot."
+    ]
+  },
+  {
+    "name": "Beef and Barley Soup",
+    "type": "meat",
+    "carbSource": "barley",
+    "fat": 4,
+    "vegetableSource": "carrots, onions, celery",
+    "ingredients": [
+      "1 lb beef stew meat",
+      "2 medium carrots",
+      "2 celery stalks",
+      "1 onion",
+      "1 cup barley",
+      "4 cups beef broth",
+      "2 tbsp olive oil",
+      "1 tsp thyme",
+      "1 tsp bay leaves",
+      "Salt and pepper to taste"
+    ],
+    "directions": [
+      "Heat olive oil in a large pot over medium heat. Brown the beef stew meat on all sides, about 5-7 minutes.",
+      "Remove beef and set aside. Add diced carrots, celery, and onion to the pot and cook for 5 minutes.",
+      "Add barley, beef broth, thyme, bay leaves, salt, and pepper. Bring to a boil.",
+      "Reduce heat, cover, and simmer for 1 hour, or until beef and barley are tender.",
+      "Remove bay leaves and serve hot."
+    ]
+  }
 ]
