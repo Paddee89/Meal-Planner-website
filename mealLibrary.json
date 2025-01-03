@@ -1005,18 +1005,5 @@
             "Reduce heat, cover, and simmer for 1 hour, or until beef and barley are tender.",
             "Remove bay leaves and serve hot."
         ]
-    },
-    {
-        "name": "test",
-        "type": "meat",
-        "carbSource": "test",
-        "fat": 4,
-        "vegetableSource": "carrots, onions, celery",
-        "ingredients": [
-            "test"
-        ],
-        "directions": [
-            "test"
-        ]
     }
 ]
