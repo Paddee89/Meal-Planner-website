@@ -86,7 +86,7 @@
   {
     "name": "Beef stir-fry with noodles and bell peppers",
     "type": "meat",
-    "carbSource": "noodles",
+    "carbSource": "pasta",
     "fat": 3,
     "vegetableSource": "bell peppers",
     "ingredients": [
@@ -125,7 +125,7 @@
   {
     "name": "Grilled chicken with roasted vegetables and brown rice",
     "type": "meat",
-    "carbSource": "brown rice",
+    "carbSource": "rice",
     "fat": 4,
     "vegetableSource": "carrots, bell peppers, zucchini",
     "ingredients": [
@@ -288,7 +288,7 @@
   {
     "name": "Classic Cheeseburger with Fries",
     "type": "cheatday",
-    "carbSource": "burger buns and fries",
+    "carbSource": "fries",
     "fat": 5,
     "vegetableSource": "lettuce, tomato, pickles, potatoes",
     "ingredients": [
@@ -340,7 +340,7 @@
   {
     "name": "Mac and Cheese",
     "type": "cheatday",
-    "carbSource": "macaroni",
+    "carbSource": "pasta",
     "fat": 5,
     "vegetableSource": "none",
     "ingredients": [
@@ -365,7 +365,7 @@
   {
     "name": "Pepperoni Pizza",
     "type": "cheatday",
-    "carbSource": "pizza crust",
+    "carbSource": "pizza",
     "fat": 5,
     "vegetableSource": "tomato sauce",
     "ingredients": [
@@ -472,7 +472,7 @@
   {
     "name": "Spaghetti with Lentil Marinara",
     "type": "vegetarian",
-    "carbSource": "spaghetti",
+    "carbSource": "pasta",
     "fat": 2,
     "vegetableSource": "tomatoes, onions",
     "ingredients": [
@@ -611,7 +611,7 @@
   {
     "name": "Mushroom and Spinach Risotto",
     "type": "vegetarian",
-    "carbSource": "arborio rice",
+    "carbSource": "rice",
     "fat": 4,
     "vegetableSource": "mushrooms, spinach",
     "ingredients": [
