@@ -21,6 +21,232 @@
         ]
     },
     {
+        "name": "Spicy Beef Tacos",
+        "type": "meat",
+        "carbSource": "tortillas",
+        "fat": 5,
+        "vegetableSource": "lettuce, tomatoes, onions",
+        "ingredients": [
+            "1 lb ground beef",
+            "8 small tortillas",
+            "1 cup shredded lettuce",
+            "1 cup diced tomatoes",
+            "1 onion, diced",
+            "1 packet taco seasoning"
+        ],
+        "directions": [
+            "Cook ground beef with taco seasoning until browned.",
+            "Warm tortillas in a pan.",
+            "Assemble tacos with beef, lettuce, tomatoes, and onions.",
+            "Serve hot."
+        ]
+    },
+    {
+        "name": "Honey Mustard Chicken with Sweet Potatoes",
+        "type": "meat",
+        "carbSource": "sweet potatoes",
+        "fat": 4,
+        "vegetableSource": "green beans",
+        "ingredients": [
+            "4 chicken thighs",
+            "2 medium sweet potatoes",
+            "2 cups green beans",
+            "3 tbsp honey mustard sauce",
+            "1 tbsp olive oil"
+        ],
+        "directions": [
+            "Preheat oven to 400\u00b0F (200\u00b0C).",
+            "Toss chicken with honey mustard sauce and bake for 25-30 minutes.",
+            "Roast sweet potatoes and green beans with olive oil for 20 minutes.",
+            "Serve the chicken with roasted vegetables."
+        ]
+    },
+    {
+        "name": "Grilled Pork Chops with Couscous",
+        "type": "meat",
+        "carbSource": "couscous",
+        "fat": 3,
+        "vegetableSource": "zucchini, bell peppers",
+        "ingredients": [
+            "4 pork chops",
+            "1 cup couscous",
+            "1 zucchini, sliced",
+            "1 bell pepper, sliced",
+            "2 tbsp olive oil",
+            "1 tsp garlic powder"
+        ],
+        "directions": [
+            "Cook couscous as per package instructions.",
+            "Grill pork chops for 5-6 minutes per side.",
+            "Saut\u00e9 zucchini and bell peppers in olive oil until tender.",
+            "Serve pork chops with couscous and vegetables."
+        ]
+    },
+    {
+        "name": "Lamb Stew with Potatoes",
+        "type": "meat",
+        "carbSource": "potatoes",
+        "fat": 5,
+        "vegetableSource": "carrots, celery, onions",
+        "ingredients": [
+            "1 lb lamb cubes",
+            "2 large potatoes, diced",
+            "3 carrots, sliced",
+            "2 celery stalks, chopped",
+            "1 onion, chopped",
+            "4 cups beef broth"
+        ],
+        "directions": [
+            "Brown lamb cubes in a pot.",
+            "Add vegetables and broth, then simmer for 1 hour.",
+            "Serve hot."
+        ]
+    },
+    {
+        "name": "Baked Cod with Brown Rice",
+        "type": "fish",
+        "carbSource": "rice",
+        "fat": 2,
+        "vegetableSource": "spinach",
+        "ingredients": [
+            "2 cod fillets",
+            "1 cup brown rice",
+            "2 cups spinach",
+            "1 lemon, sliced",
+            "1 tbsp olive oil"
+        ],
+        "directions": [
+            "Cook brown rice according to package instructions.",
+            "Bake cod fillets with lemon slices and olive oil at 375\u00b0F for 15 minutes.",
+            "Saut\u00e9 spinach until wilted.",
+            "Serve cod with rice and spinach."
+        ]
+    },
+    {
+        "name": "Grilled Tuna Steak with Quinoa",
+        "type": "fish",
+        "carbSource": "quinoa",
+        "fat": 4,
+        "vegetableSource": "asparagus",
+        "ingredients": [
+            "2 tuna steaks",
+            "1 cup quinoa",
+            "1 bunch asparagus",
+            "2 tbsp soy sauce",
+            "1 tbsp sesame oil"
+        ],
+        "directions": [
+            "Cook quinoa as per package instructions.",
+            "Grill tuna steaks for 3-4 minutes per side.",
+            "Grill asparagus until tender.",
+            "Serve tuna with quinoa and asparagus."
+        ]
+    },
+    {
+        "name": "Vegetarian Chili with Rice",
+        "type": "vegetarian",
+        "carbSource": "rice",
+        "fat": 3,
+        "vegetableSource": "tomatoes, bell peppers, onions",
+        "ingredients": [
+            "1 can kidney beans",
+            "1 can black beans",
+            "2 cups diced tomatoes",
+            "1 bell pepper, diced",
+            "1 onion, chopped",
+            "1 cup rice"
+        ],
+        "directions": [
+            "Cook rice as per package instructions.",
+            "In a pot, saut\u00e9 onions and bell peppers.",
+            "Add beans and tomatoes, then simmer for 20 minutes.",
+            "Serve the chili over rice."
+        ]
+    },
+     {
+        "name": "Stuffed Bell Peppers with Lentils",
+        "type": "vegetarian",
+        "carbSource": "lentils",
+        "fat": 2,
+        "vegetableSource": "bell peppers",
+        "ingredients": [
+            "4 bell peppers",
+            "1 cup lentils",
+            "1 can diced tomatoes",
+            "1 onion, chopped",
+            "1 tsp cumin"
+        ],
+        "directions": [
+            "Cook lentils as per package instructions.",
+            "Cut tops off bell peppers and remove seeds.",
+            "Mix lentils with tomatoes, onions, and cumin.",
+            "Stuff the peppers and bake at 375\u00b0F for 25 minutes."
+        ]
+    },
+    {
+        "name": "Vegetable Fried Rice",
+        "type": "vegetarian",
+        "carbSource": "rice",
+        "fat": 4,
+        "vegetableSource": "peas, carrots, bell peppers",
+        "ingredients": [
+            "2 cups cooked rice",
+            "1 cup peas",
+            "2 carrots, diced",
+            "1 bell pepper, diced",
+            "2 tbsp soy sauce",
+            "1 tbsp sesame oil"
+        ],
+        "directions": [
+            "Heat sesame oil in a pan.",
+            "Add vegetables and stir-fry for 5 minutes.",
+            "Add cooked rice and soy sauce, stir well.",
+            "Serve hot."
+        ]
+    },
+    {
+        "name": "Bulgur Salad with Grilled Chicken",
+        "type": "meat",
+        "carbSource": "bulgur",
+        "fat": 3,
+        "vegetableSource": "cucumbers, tomatoes",
+        "ingredients": [
+            "1 cup bulgur",
+            "2 chicken breasts",
+            "1 cucumber, diced",
+            "2 tomatoes, diced",
+            "2 tbsp lemon juice",
+            "1 tbsp olive oil"
+        ],
+        "directions": [
+            "Cook bulgur according to package instructions.",
+            "Grill chicken breasts and slice them.",
+            "Toss bulgur with cucumbers, tomatoes, lemon juice, and olive oil.",
+            "Serve with grilled chicken."
+        ]
+    },
+    {
+        "name": "Quinoa Salad with Roasted Vegetables",
+        "type": "vegetarian",
+        "carbSource": "quinoa",
+        "fat": 2,
+        "vegetableSource": "zucchini, bell peppers, onions",
+        "ingredients": [
+            "1 cup quinoa",
+            "1 zucchini, diced",
+            "1 bell pepper, diced",
+            "1 onion, diced",
+            "2 tbsp olive oil",
+            "1 tbsp balsamic vinegar"
+        ],
+        "directions": [
+            "Cook quinoa as per package instructions.",
+            "Roast vegetables with olive oil at 400\u00b0F for 20 minutes.",
+            "Toss quinoa with roasted vegetables and balsamic vinegar.",
+            "Serve warm or cold."
+        ]
+    },
+    {
         "name": "Grilled salmon with sweet potatoes and asparagus",
         "type": "fish",
         "carbSource": "sweet potatoes",
