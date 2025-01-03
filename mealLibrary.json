@@ -1005,5 +1005,41 @@
             "Reduce heat, cover, and simmer for 1 hour, or until beef and barley are tender.",
             "Remove bay leaves and serve hot."
         ]
-    }
+    },
+    {
+    "name": "Lachs-Gurken Pfanne mit Pasta",
+    "type": "fish",
+    "carbSource": "pasta",
+    "fat": 4,
+    "vegetableSource": "cucumber, onion",
+    "ingredients": [
+        "500 g cucumber",
+        "1 small white onion",
+        "1 tbsp oil",
+        "2 tsp flour",
+        "150 ml heavy cream",
+        "250 ml vegetable broth",
+        "3 tsp wholegrain mustard",
+        "350 g salmon fillet (skinless)",
+        "300 g pasta (e.g., penne or tagliatelle)",
+        "Salt",
+        "Pepper",
+        "Lemon juice (optional)",
+        "Parsley (for garnish)"
+    ],
+    "directions": [
+        "Peel the cucumber, halve it, remove seeds with a spoon, and cut into 1.5 cm wide half rings.",
+        "Dice the onion finely.",
+        "Heat oil in a pan and sauté the onion.",
+        "Add cucumber and fry for 2 minutes.",
+        "Sprinkle flour over and fry briefly.",
+        "Add heavy cream, vegetable broth, and mustard, cover, and simmer over medium heat for 8 minutes.",
+        "In the meantime, cook pasta according to package instructions until al dente. Drain and set aside.",
+        "Cut the salmon fillet into 2.5x2.5 cm cubes.",
+        "Add salmon cubes to the cucumber mixture and simmer for another 7-8 minutes.",
+        "Season with salt, pepper, and a bit of lemon juice.",
+        "Mix the cooked pasta with the salmon-cucumber sauce.",
+        "Finely chop parsley and stir into the dish before serving."
+    ]
+}
 ]
