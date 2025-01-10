@@ -1041,5 +1041,193 @@
       "Mix the cooked pasta with the salmon-cucumber sauce.",
       "Finely chop parsley and stir into the dish before serving."
     ]
+  },
+  {
+    "name": "Pasta with Sauce Bolognese and Side Salad",
+    "type": "meat",
+    "carbSource": "pasta",
+    "fat": 4,
+    "vegetableSource": "mixed greens, tomatoes, cucumbers",
+    "ingredients": [
+      "500 g pasta",
+      "500 g ground beef",
+      "1 onion, diced",
+      "2 cloves garlic, minced",
+      "500 ml tomato sauce",
+      "1 tbsp olive oil",
+      "Salt and pepper to taste",
+      "Mixed greens",
+      "1 cucumber, sliced",
+      "2 tbsp salad dressing"
+    ],
+    "directions": [
+      "Cook pasta according to package instructions.",
+      "Heat olive oil in a pan and sauté onions and garlic until translucent.",
+      "Add ground beef and cook until browned.",
+      "Stir in tomato sauce, salt, and pepper, and simmer for 10-15 minutes.",
+      "Toss mixed greens and cucumber with salad dressing.",
+      "Serve the pasta with Bolognese sauce and side salad."
+    ]
+  },
+  {
+    "name": "Spaghetti with Green Pesto and Carrot Salad",
+    "type": "vegetarian",
+    "carbSource": "pasta",
+    "fat": 5,
+    "vegetableSource": "carrots",
+    "ingredients": [
+      "500 g spaghetti",
+      "100 g green pesto",
+      "4 large carrots, grated",
+      "2 tbsp olive oil",
+      "1 tbsp lemon juice",
+      "Salt and pepper to taste"
+    ],
+    "directions": [
+      "Cook spaghetti according to package instructions and drain.",
+      "Mix spaghetti with green pesto.",
+      "In a bowl, toss grated carrots with olive oil, lemon juice, salt, and pepper.",
+      "Serve the pesto spaghetti with carrot salad."
+    ]
+  },
+  {
+    "name": "Oven Vegetables",
+    "type": "vegetarian",
+    "carbSource": "potatoes, sweet potatoes",
+    "fat": 3,
+    "vegetableSource": "onions, broccoli, cauliflower",
+    "ingredients": [
+      "300 g potatoes, diced",
+      "300 g sweet potatoes, diced",
+      "1 onion, sliced",
+      "200 g broccoli florets",
+      "200 g cauliflower florets",
+      "2 tbsp olive oil",
+      "1 tsp paprika",
+      "Salt and pepper to taste"
+    ],
+    "directions": [
+      "Preheat oven to 400°F (200°C).",
+      "Toss all vegetables with olive oil, paprika, salt, and pepper.",
+      "Spread the vegetables on a baking tray and roast for 30-35 minutes, turning halfway through.",
+      "Serve hot."
+    ]
+  },
+  {
+    "name": "Tortilla Wraps with Chicken",
+    "type": "meat",
+    "carbSource": "tortillas",
+    "fat": 4,
+    "vegetableSource": "bell peppers, lettuce, onions",
+    "ingredients": [
+      "4 tortillas",
+      "300 g chicken breast, sliced",
+      "1 bell pepper, sliced",
+      "1 onion, sliced",
+      "2 cups lettuce",
+      "1 tbsp olive oil",
+      "Salt and pepper to taste",
+      "1 tbsp sour cream"
+    ],
+    "directions": [
+      "Heat olive oil in a pan and cook chicken until golden brown.",
+      "Add bell peppers and onions, cook for another 5-7 minutes.",
+      "Warm tortillas and fill with chicken mixture, lettuce, and sour cream.",
+      "Serve immediately."
+    ]
+  },
+  {
+    "name": "Tortilla Wraps with Tofu",
+    "type": "vegetarian",
+    "carbSource": "tortillas",
+    "fat": 3,
+    "vegetableSource": "bell peppers, lettuce, onions",
+    "ingredients": [
+      "4 tortillas",
+      "300 g tofu, cubed",
+      "1 bell pepper, sliced",
+      "1 onion, sliced",
+      "2 cups lettuce",
+      "1 tbsp olive oil",
+      "Salt and pepper to taste",
+      "1 tbsp hummus"
+    ],
+    "directions": [
+      "Heat olive oil in a pan and cook tofu until golden brown.",
+      "Add bell peppers and onions, cook for another 5-7 minutes.",
+      "Warm tortillas and fill with tofu mixture, lettuce, and hummus.",
+      "Serve immediately."
+    ]
+  },
+  {
+    "name": "Tortilla Wraps with Ground Beef",
+    "type": "meat",
+    "carbSource": "tortillas",
+    "fat": 5,
+    "vegetableSource": "bell peppers, lettuce, onions",
+    "ingredients": [
+      "4 tortillas",
+      "300 g ground beef",
+      "1 bell pepper, sliced",
+      "1 onion, sliced",
+      "2 cups lettuce",
+      "1 tbsp olive oil",
+      "Salt and pepper to taste",
+      "1 tbsp salsa"
+    ],
+    "directions": [
+      "Heat olive oil in a pan and cook ground beef until browned.",
+      "Add bell peppers and onions, cook for another 5-7 minutes.",
+      "Warm tortillas and fill with beef mixture, lettuce, and salsa.",
+      "Serve immediately."
+    ]
+  },
+  {
+    "name": "Enchiladas",
+    "type": "meat",
+    "carbSource": "tortillas",
+    "fat": 5,
+    "vegetableSource": "tomato sauce, bell peppers",
+    "ingredients": [
+      "6 tortillas",
+      "500 g cooked chicken, shredded",
+      "2 cups tomato sauce",
+      "1 bell pepper, diced",
+      "1 onion, diced",
+      "1 cup shredded cheese",
+      "1 tbsp olive oil",
+      "1 tsp cumin",
+      "Salt and pepper to taste"
+    ],
+    "directions": [
+      "Preheat oven to 375°F (190°C).",
+      "Mix shredded chicken with tomato sauce, bell pepper, onion, cumin, salt, and pepper.",
+      "Fill tortillas with the mixture, roll them up, and place them in a baking dish.",
+      "Pour remaining tomato sauce over the enchiladas and sprinkle with cheese.",
+      "Bake for 20 minutes until the cheese is melted and bubbly.",
+      "Serve hot."
+    ]
+  },
+  {
+    "name": "Fish Sticks with Mashed Potatoes and Peas and Carrots",
+    "type": "fish",
+    "carbSource": "potatoes",
+    "fat": 4,
+    "vegetableSource": "peas, carrots",
+    "ingredients": [
+      "12 fish sticks",
+      "500 g potatoes, peeled and cubed",
+      "200 g peas",
+      "200 g carrots, sliced",
+      "2 tbsp butter",
+      "100 ml milk",
+      "Salt and pepper to taste"
+    ],
+    "directions": [
+      "Bake fish sticks according to package instructions.",
+      "Boil potatoes until tender, then mash with butter, milk, salt, and pepper.",
+      "Boil peas and carrots for 5-7 minutes until tender.",
+      "Serve fish sticks with mashed potatoes and vegetables."
+    ]
   }
 ]
