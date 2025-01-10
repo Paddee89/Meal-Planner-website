@@ -1415,5 +1415,33 @@
       "If sauce is a bit thick, stir in a splash of water to thin out until you reach your desired consistency.",
       "Garnish with green onion slices and serve over cooked rice."
     ]
+  },
+  {
+    "name": "Arepa Reina Pepiada",
+    "type": "meat",
+    "carbSource": "arepa",
+    "fat": 4,
+    "vegetableSource": "avocado",
+    "ingredients": [
+      "2 cups pre-cooked white cornmeal (Harina P.A.N.)",
+      "2 1/2 cups water",
+      "1 tsp salt",
+      "1 tbsp vegetable oil",
+      "1 cooked chicken breast, shredded",
+      "1 ripe avocado, mashed",
+      "1/4 cup mayonnaise",
+      "1/4 cup diced red onion",
+      "1 tbsp lime juice",
+      "Salt and pepper to taste"
+    ],
+    "directions": [
+      "In a bowl, mix the pre-cooked white cornmeal, water, and salt until a dough forms.",
+      "Knead the dough for about 5 minutes until smooth.",
+      "Divide the dough into equal portions and shape into thick discs about 4 inches in diameter.",
+      "Heat a griddle or skillet over medium heat, add a little vegetable oil, and cook the arepas for about 5-7 minutes on each side until golden brown and cooked through.",
+      "In a separate bowl, mix the shredded chicken, mashed avocado, mayonnaise, diced red onion, lime juice, salt, and pepper to prepare the filling.",
+      "Slice the cooked arepas in half horizontally and fill them with the chicken and avocado mixture.",
+      "Serve warm and enjoy!"
+    ]
   }
 ]
