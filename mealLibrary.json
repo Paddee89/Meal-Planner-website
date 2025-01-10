@@ -1229,5 +1229,159 @@
       "Boil peas and carrots for 5-7 minutes until tender.",
       "Serve fish sticks with mashed potatoes and vegetables."
     ]
+  },
+  {
+    "name": "Creamy Mushroom Pasta",
+    "type": "vegetarian",
+    "carbSource": "pasta",
+    "fat": 4,
+    "vegetableSource": "mushrooms, spinach",
+    "ingredients": [
+      "250g pasta",
+      "1 cup sliced mushrooms",
+      "2 cups spinach",
+      "1 cup heavy cream",
+      "1 tbsp olive oil",
+      "2 cloves garlic, minced",
+      "Salt and pepper to taste"
+    ],
+    "directions": [
+      "Cook pasta according to package instructions.",
+      "Heat olive oil in a pan and sauté garlic and mushrooms until browned.",
+      "Add spinach and cook until wilted.",
+      "Pour in heavy cream, season with salt and pepper, and simmer for 5 minutes.",
+      "Toss pasta in the sauce and serve hot."
+    ]
+  },
+  {
+    "name": "Vegetable Lasagna",
+    "type": "vegetarian",
+    "carbSource": "pasta",
+    "fat": 5,
+    "vegetableSource": "zucchini, bell peppers, spinach",
+    "ingredients": [
+      "12 lasagna sheets",
+      "1 zucchini, sliced",
+      "1 bell pepper, diced",
+      "2 cups spinach",
+      "2 cups marinara sauce",
+      "1 cup ricotta cheese",
+      "1 cup shredded mozzarella",
+      "1/2 cup grated parmesan"
+    ],
+    "directions": [
+      "Preheat oven to 375°F (190°C).",
+      "Layer lasagna sheets with vegetables, marinara sauce, and cheeses in a baking dish.",
+      "Bake for 35-40 minutes until bubbly and golden.",
+      "Let cool for 10 minutes before serving."
+    ]
+  },
+  {
+    "name": "Chicken Fajita Bowls",
+    "type": "meat",
+    "carbSource": "rice",
+    "fat": 3,
+    "vegetableSource": "bell peppers, onions",
+    "ingredients": [
+      "2 chicken breasts, sliced",
+      "1 bell pepper, sliced",
+      "1 onion, sliced",
+      "2 cups cooked rice",
+      "2 tbsp fajita seasoning",
+      "1 tbsp olive oil"
+    ],
+    "directions": [
+      "Heat olive oil in a pan and cook chicken with fajita seasoning until browned.",
+      "Add bell pepper and onion, cooking until tender.",
+      "Serve over rice."
+    ]
+  },
+  {
+    "name": "Baked Fish with Roasted Vegetables",
+    "type": "fish",
+    "carbSource": "potatoes",
+    "fat": 3,
+    "vegetableSource": "zucchini, carrots, bell peppers",
+    "ingredients": [
+      "2 fish fillets (e.g. cod or tilapia)",
+      "2 potatoes, diced",
+      "1 zucchini, sliced",
+      "2 carrots, sliced",
+      "1 bell pepper, diced",
+      "1 tbsp olive oil",
+      "Salt and pepper to taste"
+    ],
+    "directions": [
+      "Preheat oven to 400°F (200°C).",
+      "Toss vegetables with olive oil, salt, and pepper, and spread on a baking tray.",
+      "Place fish fillets on top, season, and bake for 25-30 minutes.",
+      "Serve hot."
+    ]
+  },
+  {
+    "name": "Stuffed Bell Peppers with Quinoa",
+    "type": "vegetarian",
+    "carbSource": "quinoa",
+    "fat": 2,
+    "vegetableSource": "bell peppers, tomatoes",
+    "ingredients": [
+      "4 bell peppers",
+      "1 cup cooked quinoa",
+      "1 cup diced tomatoes",
+      "1 cup black beans",
+      "1 tsp cumin",
+      "Salt and pepper to taste"
+    ],
+    "directions": [
+      "Preheat oven to 375°F (190°C).",
+      "Cut tops off bell peppers and remove seeds.",
+      "Mix quinoa, tomatoes, black beans, cumin, salt, and pepper.",
+      "Stuff peppers with the mixture and bake for 20-25 minutes.",
+      "Serve hot."
+    ]
+  },
+  {
+    "name": "Ground Beef Enchiladas",
+    "type": "meat",
+    "carbSource": "tortillas",
+    "fat": 5,
+    "vegetableSource": "tomatoes, onions",
+    "ingredients": [
+      "1 lb ground beef",
+      "8 small tortillas",
+      "2 cups enchilada sauce",
+      "1 cup shredded cheddar cheese",
+      "1 onion, diced",
+      "Salt and pepper to taste"
+    ],
+    "directions": [
+      "Preheat oven to 375°F (190°C).",
+      "Cook ground beef and onions until browned, season with salt and pepper.",
+      "Roll beef mixture in tortillas and place in a baking dish.",
+      "Pour enchilada sauce over tortillas and sprinkle with cheese.",
+      "Bake for 20 minutes until cheese is melted and bubbly."
+    ]
+  },
+  {
+    "name": "Fish Sticks with Mashed Potatoes and Peas",
+    "type": "fish",
+    "carbSource": "potatoes",
+    "fat": 4,
+    "vegetableSource": "peas, carrots",
+    "ingredients": [
+      "8 fish sticks",
+      "4 medium potatoes",
+      "1 cup peas",
+      "2 carrots, sliced",
+      "2 tbsp butter",
+      "1/4 cup milk",
+      "Salt and pepper to taste"
+    ],
+    "directions": [
+      "Bake fish sticks according to package instructions.",
+      "Boil potatoes until tender, then mash with butter, milk, salt, and pepper.",
+      "Steam peas and carrots until tender.",
+      "Serve fish sticks with mashed potatoes and vegetables."
+    ]
   }
 ]
