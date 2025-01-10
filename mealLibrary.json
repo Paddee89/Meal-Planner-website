@@ -1443,5 +1443,36 @@
       "Slice the cooked arepas in half horizontally and fill them with the chicken and avocado mixture.",
       "Serve warm and enjoy!"
     ]
+  },
+  {
+    "name": "Vegetarian Creamy Pasta Casserole",
+    "type": "vegetarian",
+    "carbSource": "pasta",
+    "fat": 4,
+    "vegetableSource": "spinach, mushrooms, tomatoes",
+    "ingredients": [
+      "300 g pasta (penne or fusilli)",
+      "2 cups spinach, chopped",
+      "1 cup mushrooms, sliced",
+      "1 cup cherry tomatoes, halved",
+      "1 1/2 cups mozzarella cheese, shredded",
+      "1/2 cup grated Parmesan cheese",
+      "2 cups heavy cream",
+      "2 cloves garlic, minced",
+      "1 tbsp olive oil",
+      "Salt and pepper to taste",
+      "1 tsp dried oregano",
+      "1 tsp dried basil"
+    ],
+    "directions": [
+      "Preheat the oven to 375°F (190°C). Lightly grease a baking dish.",
+      "Cook the pasta according to package instructions until al dente. Drain and set aside.",
+      "Heat olive oil in a pan over medium heat. Add minced garlic and cook for 1 minute until fragrant.",
+      "Add sliced mushrooms and cook for 5-6 minutes until softened. Add spinach and cook until wilted.",
+      "In a large bowl, combine cooked pasta, sautéed vegetables, cherry tomatoes, heavy cream, half of the mozzarella cheese, oregano, basil, salt, and pepper. Mix well.",
+      "Pour the pasta mixture into the prepared baking dish. Top with the remaining mozzarella cheese and grated Parmesan cheese.",
+      "Bake in the preheated oven for 20-25 minutes or until the cheese is bubbly and golden brown.",
+      "Remove from the oven, let cool slightly, and serve hot."
+    ]
   }
 ]
