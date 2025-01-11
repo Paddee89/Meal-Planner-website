@@ -5,16 +5,22 @@ window.previousMealPlan = [];
 // Fetch the meal library from the JSON file
 async function fetchMealLibrary() {
   try {
-    const response = await fetch('mealLibrary.json');
+    const response = await fetch(`mealLibrary.json?timestamp=${Date.now()}`); // Bypass cache
     if (!response.ok) {
-      throw new Error('Failed to load meal library');
+      throw new Error(`Failed to load meal library: ${response.status} ${response.statusText}`);
     }
+
     const data = await response.json();
-    console.log('Loaded meal library:', data);
+
+    if (!Array.isArray(data)) {
+      throw new Error('Invalid data format: Expected an array of meals.');
+    }
+
+    console.log(`Loaded meal library with ${data.length} meals.`);
     return data;
   } catch (error) {
     console.error('Error loading meal library:', error);
-    alert('Error: Unable to load meal library');
+    alert('Error: Unable to load meal library. Please try again later.');
     return [];
   }
 }
