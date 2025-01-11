@@ -50,13 +50,29 @@ async function generateMealPlan() {
       return;
     }
 
-    // Track selected meals to avoid duplicates
     let selectedMeals = [];
+    let usedCarbSources = new Set();
 
-    // Randomly select the required meals from each category
-    const selectedMeatMeals = getRandomMeals(meatMeals, 2, selectedMeals);
-    const selectedFishMeals = getRandomMeals(fishMeals, 1, selectedMeals);
-    const selectedVegetarianMeals = getRandomMeals(vegetarianMeals, 3, selectedMeals);
+    // Function to select meals ensuring unique carb sources
+    function selectMealsWithUniqueCarbSource(meals, count) {
+      const selected = [];
+      while (selected.length < count) {
+        const randomIndex = Math.floor(Math.random() * meals.length);
+        const meal = meals[randomIndex];
+        
+        // Ensure unique carb source
+        if (!usedCarbSources.has(meal.carbSource)) {
+          selected.push(meal);
+          usedCarbSources.add(meal.carbSource);
+        }
+      }
+      return selected;
+    }
+
+    // Select required meals ensuring unique carb sources
+    const selectedMeatMeals = selectMealsWithUniqueCarbSource(meatMeals, 2);
+    const selectedFishMeals = selectMealsWithUniqueCarbSource(fishMeals, 1);
+    const selectedVegetarianMeals = selectMealsWithUniqueCarbSource(vegetarianMeals, 3);
 
     // Combine selected meals
     selectedMeals = [...selectedMeatMeals, ...selectedFishMeals, ...selectedVegetarianMeals];
