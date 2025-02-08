@@ -1229,5 +1229,250 @@
       "Boil peas and carrots for 5-7 minutes until tender.",
       "Serve fish sticks with mashed potatoes and vegetables."
     ]
+  },
+  {
+    "name": "Creamy Mushroom Pasta",
+    "type": "vegetarian",
+    "carbSource": "pasta",
+    "fat": 4,
+    "vegetableSource": "mushrooms, spinach",
+    "ingredients": [
+      "250g pasta",
+      "1 cup sliced mushrooms",
+      "2 cups spinach",
+      "1 cup heavy cream",
+      "1 tbsp olive oil",
+      "2 cloves garlic, minced",
+      "Salt and pepper to taste"
+    ],
+    "directions": [
+      "Cook pasta according to package instructions.",
+      "Heat olive oil in a pan and sauté garlic and mushrooms until browned.",
+      "Add spinach and cook until wilted.",
+      "Pour in heavy cream, season with salt and pepper, and simmer for 5 minutes.",
+      "Toss pasta in the sauce and serve hot."
+    ]
+  },
+  {
+    "name": "Vegetable Lasagna",
+    "type": "vegetarian",
+    "carbSource": "pasta",
+    "fat": 5,
+    "vegetableSource": "zucchini, bell peppers, spinach",
+    "ingredients": [
+      "12 lasagna sheets",
+      "1 zucchini, sliced",
+      "1 bell pepper, diced",
+      "2 cups spinach",
+      "2 cups marinara sauce",
+      "1 cup ricotta cheese",
+      "1 cup shredded mozzarella",
+      "1/2 cup grated parmesan"
+    ],
+    "directions": [
+      "Preheat oven to 375°F (190°C).",
+      "Layer lasagna sheets with vegetables, marinara sauce, and cheeses in a baking dish.",
+      "Bake for 35-40 minutes until bubbly and golden.",
+      "Let cool for 10 minutes before serving."
+    ]
+  },
+  {
+    "name": "Chicken Fajita Bowls",
+    "type": "meat",
+    "carbSource": "rice",
+    "fat": 3,
+    "vegetableSource": "bell peppers, onions",
+    "ingredients": [
+      "2 chicken breasts, sliced",
+      "1 bell pepper, sliced",
+      "1 onion, sliced",
+      "2 cups cooked rice",
+      "2 tbsp fajita seasoning",
+      "1 tbsp olive oil"
+    ],
+    "directions": [
+      "Heat olive oil in a pan and cook chicken with fajita seasoning until browned.",
+      "Add bell pepper and onion, cooking until tender.",
+      "Serve over rice."
+    ]
+  },
+  {
+    "name": "Baked Fish with Roasted Vegetables",
+    "type": "fish",
+    "carbSource": "potatoes",
+    "fat": 3,
+    "vegetableSource": "zucchini, carrots, bell peppers",
+    "ingredients": [
+      "2 fish fillets (e.g. cod or tilapia)",
+      "2 potatoes, diced",
+      "1 zucchini, sliced",
+      "2 carrots, sliced",
+      "1 bell pepper, diced",
+      "1 tbsp olive oil",
+      "Salt and pepper to taste"
+    ],
+    "directions": [
+      "Preheat oven to 400°F (200°C).",
+      "Toss vegetables with olive oil, salt, and pepper, and spread on a baking tray.",
+      "Place fish fillets on top, season, and bake for 25-30 minutes.",
+      "Serve hot."
+    ]
+  },
+  {
+    "name": "Stuffed Bell Peppers with Quinoa",
+    "type": "vegetarian",
+    "carbSource": "quinoa",
+    "fat": 2,
+    "vegetableSource": "bell peppers, tomatoes",
+    "ingredients": [
+      "4 bell peppers",
+      "1 cup cooked quinoa",
+      "1 cup diced tomatoes",
+      "1 cup black beans",
+      "1 tsp cumin",
+      "Salt and pepper to taste"
+    ],
+    "directions": [
+      "Preheat oven to 375°F (190°C).",
+      "Cut tops off bell peppers and remove seeds.",
+      "Mix quinoa, tomatoes, black beans, cumin, salt, and pepper.",
+      "Stuff peppers with the mixture and bake for 20-25 minutes.",
+      "Serve hot."
+    ]
+  },
+  {
+    "name": "Ground Beef Enchiladas",
+    "type": "meat",
+    "carbSource": "tortillas",
+    "fat": 5,
+    "vegetableSource": "tomatoes, onions",
+    "ingredients": [
+      "1 lb ground beef",
+      "8 small tortillas",
+      "2 cups enchilada sauce",
+      "1 cup shredded cheddar cheese",
+      "1 onion, diced",
+      "Salt and pepper to taste"
+    ],
+    "directions": [
+      "Preheat oven to 375°F (190°C).",
+      "Cook ground beef and onions until browned, season with salt and pepper.",
+      "Roll beef mixture in tortillas and place in a baking dish.",
+      "Pour enchilada sauce over tortillas and sprinkle with cheese.",
+      "Bake for 20 minutes until cheese is melted and bubbly."
+    ]
+  },
+  {
+    "name": "Fish Sticks with Mashed Potatoes and Peas",
+    "type": "fish",
+    "carbSource": "potatoes",
+    "fat": 4,
+    "vegetableSource": "peas, carrots",
+    "ingredients": [
+      "8 fish sticks",
+      "4 medium potatoes",
+      "1 cup peas",
+      "2 carrots, sliced",
+      "2 tbsp butter",
+      "1/4 cup milk",
+      "Salt and pepper to taste"
+    ],
+    "directions": [
+      "Bake fish sticks according to package instructions.",
+      "Boil potatoes until tender, then mash with butter, milk, salt, and pepper.",
+      "Steam peas and carrots until tender.",
+      "Serve fish sticks with mashed potatoes and vegetables."
+    ]
+  },
+  {
+    "name": "Sweet and Sour Chicken Bake with Rice",
+    "type": "meat",
+    "carbSource": "rice",
+    "fat": 3,
+    "vegetableSource": "onions, bell peppers, pineapple",
+    "ingredients": [
+      "3/4 pound skinless, boneless chicken breast",
+      "1 tablespoon cornstarch",
+      "1/3 cup bite-sized onion chunks",
+      "1/3 green bell pepper, cut into bite-sized chunks",
+      "1/3 red bell pepper, cut into bite-sized chunks",
+      "1/3 cup bite-sized pineapple chunks",
+      "1/3 cup ketchup",
+      "2 tablespoons seasoned rice vinegar",
+      "2 tablespoons brown sugar, or to taste",
+      "1 tablespoon low-sodium soy sauce",
+      "1 large clove garlic, minced",
+      "1/2 teaspoon ginger paste",
+      "1 green onion, sliced (optional)",
+      "2 cups cooked rice"
+    ],
+    "directions": [
+      "Preheat the oven to 400 degrees F (200 degrees C). Lightly grease a baking dish or spray with cooking spray.",
+      "Pat chicken breast dry with a paper towel, cut into 1-inch chunks, and add to the dish.",
+      "Sprinkle with cornstarch, and toss until chicken is coated. Stir in onions, green and red bell peppers, and pineapple.",
+      "Add ketchup, rice vinegar, brown sugar, soy sauce, garlic, and ginger paste to a small bowl, whisk until well combined, and stir into the chicken mixture.",
+      "Bake until chicken is no longer pink at the center and juices run clear, 14 to 17 minutes, stirring halfway through. An instant-read thermometer inserted near the center should read 165 degrees F (74 degrees C).",
+      "If sauce is a bit thick, stir in a splash of water to thin out until you reach your desired consistency.",
+      "Garnish with green onion slices and serve over cooked rice."
+    ]
+  },
+  {
+    "name": "Arepa Reina Pepiada",
+    "type": "meat",
+    "carbSource": "arepa",
+    "fat": 4,
+    "vegetableSource": "avocado",
+    "ingredients": [
+      "2 cups pre-cooked white cornmeal (Harina P.A.N.)",
+      "2 1/2 cups water",
+      "1 tsp salt",
+      "1 tbsp vegetable oil",
+      "1 cooked chicken breast, shredded",
+      "1 ripe avocado, mashed",
+      "1/4 cup mayonnaise",
+      "1/4 cup diced red onion",
+      "1 tbsp lime juice",
+      "Salt and pepper to taste"
+    ],
+    "directions": [
+      "In a bowl, mix the pre-cooked white cornmeal, water, and salt until a dough forms.",
+      "Knead the dough for about 5 minutes until smooth.",
+      "Divide the dough into equal portions and shape into thick discs about 4 inches in diameter.",
+      "Heat a griddle or skillet over medium heat, add a little vegetable oil, and cook the arepas for about 5-7 minutes on each side until golden brown and cooked through.",
+      "In a separate bowl, mix the shredded chicken, mashed avocado, mayonnaise, diced red onion, lime juice, salt, and pepper to prepare the filling.",
+      "Slice the cooked arepas in half horizontally and fill them with the chicken and avocado mixture.",
+      "Serve warm and enjoy!"
+    ]
+  },
+  {
+    "name": "Vegetarian Creamy Pasta Casserole",
+    "type": "vegetarian",
+    "carbSource": "pasta",
+    "fat": 4,
+    "vegetableSource": "spinach, mushrooms, tomatoes",
+    "ingredients": [
+      "300 g pasta (penne or fusilli)",
+      "2 cups spinach, chopped",
+      "1 cup mushrooms, sliced",
+      "1 cup cherry tomatoes, halved",
+      "1 1/2 cups mozzarella cheese, shredded",
+      "1/2 cup grated Parmesan cheese",
+      "2 cups heavy cream",
+      "2 cloves garlic, minced",
+      "1 tbsp olive oil",
+      "Salt and pepper to taste",
+      "1 tsp dried oregano",
+      "1 tsp dried basil"
+    ],
+    "directions": [
+      "Preheat the oven to 375°F (190°C). Lightly grease a baking dish.",
+      "Cook the pasta according to package instructions until al dente. Drain and set aside.",
+      "Heat olive oil in a pan over medium heat. Add minced garlic and cook for 1 minute until fragrant.",
+      "Add sliced mushrooms and cook for 5-6 minutes until softened. Add spinach and cook until wilted.",
+      "In a large bowl, combine cooked pasta, sautéed vegetables, cherry tomatoes, heavy cream, half of the mozzarella cheese, oregano, basil, salt, and pepper. Mix well.",
+      "Pour the pasta mixture into the prepared baking dish. Top with the remaining mozzarella cheese and grated Parmesan cheese.",
+      "Bake in the preheated oven for 20-25 minutes or until the cheese is bubbly and golden brown.",
+      "Remove from the oven, let cool slightly, and serve hot."
+    ]
   }
 ]
