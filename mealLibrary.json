@@ -1650,5 +1650,44 @@
     "directions": [
       "Thermomix"
     ]
+  },
+  {
+    "name": "Bibimbap Bowl (TM)",
+    "type": "meat",
+    "carbSource": "rice",
+    "fat": 4,
+    "vegetableSource": "zucchini, carrot, spinach, mushroom",
+    "ingredients": [
+      "1 apple, peeled, quartered",
+      "1 onion, halved",
+      "1 garlic clove",
+      "10 g lemon juice",
+      "20 g mirin",
+      "10 g soy sauce",
+      "20 g gochujang (Korean chili paste) or 20 g chipotle chili sauce",
+      "20 g toasted sesame oil",
+      "10 g brown sugar",
+      "2 pinches of pepper",
+      "20 g water",
+      "300 g beef sirloin steak, sliced (1 cm)",
+      "20 g soy sauce",
+      "20 g gochujang (Korean chili paste) or 20 g chipotle chili sauce",
+      "10 g sesame oil",
+      "10 g brown sugar",
+      "\u00bc tsp pepper",
+      "100 g yellow zucchini or 100 g green zucchini",
+      "100 g carrots",
+      "1 tsp salt and more for seasoning",
+      "200 g jasmine rice",
+      "1200 g water",
+      "1 tsp salt",
+      "100 g fresh spinach leaves, roughly chopped",
+      "100 g mushrooms, sliced (1 cm) or 150 g fresh shiitake mushrooms, sliced (1 cm)",
+      "2 tsp toasted sesame oil",
+      "4 eggs"
+    ],
+    "directions": [
+      "Thermomix"
+    ]
   }
 ]
