@@ -1506,5 +1506,25 @@
       "Melt cheese (optional): Add cheese on top, then broil in the oven until melted.",
       "Garnish & serve: Sprinkle with chopped green onions and serve hot."
     ]
+  },
+  {
+    "name": "Salbei-Knoblauch-Pasta (TM)",
+    "type": "Vegetarian",
+    "carbSource": "Pasta",
+    "fat": 5,
+    "vegetableSource": "Sage",
+    "ingredients": [
+      "90 g Parmesan, in pieces",
+      "500 g Spaghetti",
+      "Salt for cooking",
+      "10 sprigs of sage, leaves plucked",
+      "270 g butter, in pieces",
+      "5 garlic cloves, thinly sliced",
+      "2 heaping teaspoons vegetable broth paste (homemade) or 2 vegetable broth cubes (for 1 L)",
+      "6 pinches of pepper"
+    ],
+    "directions": [
+      "Thermomix"
+    ]
   }
 ]
