@@ -1547,5 +1547,46 @@
     "directions": [
       "Thermomix"
     ]
+  },
+  {
+    "name": "Low Meat Cevapcici mit Djuvec-Reis und Dill-Dip (TM)",
+    "type": "meat",
+    "carbSource": "rice",
+    "fat": 3,
+    "vegetableSource": "paprika, carrot, onion, dill, parsley",
+    "ingredients": [
+      "10 g dill, leaves plucked",
+      "120 g low-fat quark",
+      "100 g cream cheese",
+      "\u00bc tsp salt",
+      "\u00bc tsp pepper",
+      "5 g parsley, leaves plucked",
+      "265 g kidney beans, drained",
+      "50 g onion, halved",
+      "1 garlic clove",
+      "400 g ground beef, crumbled",
+      "1 tsp salt",
+      "\u00be tsp pepper",
+      "1 tsp sweet paprika",
+      "1 tsp hot paprika",
+      "250 g basmati rice",
+      "20 g oil and more for frying",
+      "200 g onions, quartered",
+      "2 garlic cloves, thinly sliced",
+      "150 g red bell pepper, diced (1 cm)",
+      "50 g carrot, diced (1 cm)",
+      "1 \u00bd tsp salt",
+      "3 tsp sweet paprika",
+      "\u00bc tsp ground chili",
+      "1 heaping tsp vegetable broth paste (homemade) or 1 vegetable broth cube (for 0.5 L)",
+      "200 g tomatoes, chopped (2 cm)",
+      "80 g frozen peas",
+      "50 g frozen corn",
+      "750 g water",
+      "100 g ajvar"
+    ],
+    "directions": [
+      "Thermomix"
+    ]
   }
 ]
