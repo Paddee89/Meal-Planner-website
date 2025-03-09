@@ -1509,8 +1509,8 @@
   },
   {
     "name": "Salbei-Knoblauch-Pasta (TM)",
-    "type": "Vegetarian",
-    "carbSource": "Pasta",
+    "type": "vegetarian",
+    "carbSource": "pasta",
     "fat": 5,
     "vegetableSource": "Sage",
     "ingredients": [
@@ -1529,8 +1529,8 @@
   },
   {
     "name": "Linguine mit Pesto Primavera (TM)",
-    "type": "Vegetarian",
-    "carbSource": "Pasta",
+    "type": "vegetarian",
+    "carbSource": "pasta",
     "fat": 4,
     "vegetableSource": "Baby spinach, basil, chervil",
     "ingredients": [
