@@ -1588,5 +1588,33 @@
     "directions": [
       "Thermomix"
     ]
+  },
+  {
+    "name": "Butter Chicken (TM)",
+    "type": "meat",
+    "carbSource": "rice",
+    "fat": 5,
+    "vegetableSource": "onion, ginger, coriander, chili",
+    "ingredients": [
+      "500 g chicken breast, diced (2-3 cm)",
+      "100 g tikka paste (see tip)",
+      "40 g ghee (see tip)",
+      "150 g onions, quartered",
+      "20 g fresh ginger, peeled, sliced (2 mm)",
+      "10 g fresh coriander, leaves plucked",
+      "3 garlic cloves",
+      "2 green chilies, halved, deseeded if desired",
+      "1 tsp salt",
+      "2 tsp ground cumin",
+      "2 tsp ground coriander",
+      "\u00bd tsp ground turmeric",
+      "100 g water",
+      "70 g tomato paste",
+      "500 g cream",
+      "250 g rice (as the carb source)"
+    ],
+    "directions": [
+      "Thermomix"
+    ]
   }
 ]
