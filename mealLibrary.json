@@ -1616,5 +1616,39 @@
     "directions": [
       "Thermomix"
     ]
+  },
+  {
+    "name": "Lasagne (TM)",
+    "type": "meat",
+    "carbSource": "pasta",
+    "fat": 4,
+    "vegetableSource": "carrot, celery, onion",
+    "ingredients": [
+      "130 g Parmesan, in pieces",
+      "200 g carrots, chopped",
+      "200 g celery root, chopped",
+      "1 onion (about 60 g), halved",
+      "1 garlic clove",
+      "50 g olive oil",
+      "500 g mixed ground meat, roughly shredded",
+      "150 g red wine",
+      "1 can diced tomatoes (400 g)",
+      "100 g tomato paste",
+      "2 tsp salt",
+      "1 \u00bc tsp black pepper, ground",
+      "1 tsp sugar",
+      "1 tsp dried basil",
+      "2 bay leaves",
+      "650 g milk",
+      "50 g butter, in pieces, and a little more for greasing",
+      "60 g flour",
+      "\u00bd tsp salt",
+      "2 pinches of pepper",
+      "2 pinches of nutmeg",
+      "250 g lasagna sheets, dry (about 12 sheets, 10 x 20 cm)"
+    ],
+    "directions": [
+      "Thermomix"
+    ]
   }
 ]
