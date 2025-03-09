@@ -1526,5 +1526,26 @@
     "directions": [
       "Thermomix"
     ]
+  },
+  {
+    "name": "Linguine mit Pesto Primavera (TM)",
+    "type": "Vegetarian",
+    "carbSource": "Pasta",
+    "fat": 4,
+    "vegetableSource": "Baby spinach, basil, chervil",
+    "ingredients": [
+      "\u00bd TL salt and more for cooking",
+      "500 g Linguine",
+      "80 g fresh baby spinach",
+      "50 g basil, leaves plucked",
+      "15 g chervil, leaves plucked",
+      "110 g Parmesan (90 g in pieces, 20 g shaved)",
+      "60 g sliced almonds",
+      "1 small garlic clove",
+      "160 g olive oil"
+    ],
+    "directions": [
+      "Thermomix"
+    ]
   }
 ]
