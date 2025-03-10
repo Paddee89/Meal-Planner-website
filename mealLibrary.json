@@ -143,26 +143,6 @@
     ]
   },
   {
-    "name": "Stuffed Bell Peppers with Lentils",
-    "type": "vegetarian",
-    "carbSource": "lentils",
-    "fat": 2,
-    "vegetableSource": "bell peppers",
-    "ingredients": [
-      "4 bell peppers",
-      "1 cup lentils",
-      "1 can diced tomatoes",
-      "1 onion, chopped",
-      "1 tsp cumin"
-    ],
-    "directions": [
-      "Cook lentils as per package instructions.",
-      "Cut tops off bell peppers and remove seeds.",
-      "Mix lentils with tomatoes, onions, and cumin.",
-      "Stuff the peppers and bake at 375\u00b0F for 25 minutes."
-    ]
-  },
-  {
     "name": "Vegetable Fried Rice",
     "type": "vegetarian",
     "carbSource": "rice",
